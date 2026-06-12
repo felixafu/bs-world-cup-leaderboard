@@ -1,3 +1,24 @@
+@font-face {
+  font-family: "Lay Grotesk";
+  src: url("fonts/LayGrotesk-Regular.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Lay Grotesk";
+  src: url("fonts/LayGrotesk-Medium.woff2") format("woff2");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Lay Grotesk";
+  src: url("fonts/LayGrotesk-Semibold.woff2") format("woff2");
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Lay Grotesk";
+  src: url("fonts/LayGrotesk-Bold.woff2") format("woff2");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+
 :root {
   /* ---- BlankOS Design System tokens (locked from Figma component variables) ---- */
   --pm-green:      #4b6c4e;  /* Greens/2 PM Green — primary brand / actions */
@@ -26,7 +47,7 @@
   /* Lay Grotesk is the BlankOS brand face (licensed — drop web-font files to enable).
      Falls back to Inter / system until then. */
   --font-display: "Lay Grotesk", "Inter", system-ui, -apple-system, sans-serif;
-  --font-body:    "Inter", "Lay Grotesk", system-ui, -apple-system, sans-serif;
+  --font-body:    "Lay Grotesk", "Inter", system-ui, -apple-system, sans-serif;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
