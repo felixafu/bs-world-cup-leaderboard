@@ -60,16 +60,6 @@ function render() {
   document.getElementById("stat-accuracy").textContent =
     Math.round((totalCorrect / totalGuesses) * 100) + "%";
 
-  // Results recap
-  const recap = document.getElementById("results-recap");
-  recap.innerHTML = GAMES.map(g => `
-    <div class="result-chip">
-      <span class="result-game">${g.label}</span>
-      <span class="result-matchup">${g.matchup}</span>
-      <span class="result-winner">🏆 ${g.winner}</span>
-    </div>
-  `).join("");
-
   // Leaderboard
   const tbody = document.getElementById("leaderboard-body");
   tbody.innerHTML = rows.map(r => {
