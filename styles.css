@@ -1,0 +1,149 @@
+:root {
+  /* Blank Street brand-ish palette. Swap these if you share exact Figma tokens. */
+  --bs-green:        #0B3B2E;
+  --bs-green-deep:   #07261D;
+  --bs-green-bright: #2FB67C;
+  --cream:           #F4EFE4;
+  --cream-card:      #FBF8F1;
+  --ink:             #11201A;
+  --muted:           #6B7B73;
+  --line:            #E4DDCC;
+  --gold:            #E7B84B;
+  --silver:          #B9C2C7;
+  --bronze:          #C98A52;
+  --shadow:          0 8px 30px rgba(7, 38, 29, 0.10);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background:
+    radial-gradient(1200px 500px at 50% -200px, rgba(47,182,124,0.18), transparent 60%),
+    var(--bs-green-deep);
+  color: var(--ink);
+  min-height: 100vh;
+  padding: 32px 20px 64px;
+}
+
+.page { max-width: 920px; margin: 0 auto; }
+
+/* ---------- Hero ---------- */
+.hero { text-align: center; color: var(--cream); padding: 28px 0 36px; }
+.hero-tag {
+  display: inline-block;
+  font-size: 13px; font-weight: 600; letter-spacing: 0.04em;
+  background: rgba(47,182,124,0.18);
+  color: var(--bs-green-bright);
+  border: 1px solid rgba(47,182,124,0.35);
+  padding: 6px 14px; border-radius: 999px; margin-bottom: 16px;
+}
+.hero h1 {
+  font-size: clamp(32px, 6vw, 52px); font-weight: 800;
+  letter-spacing: -0.02em; line-height: 1.05;
+}
+.hero-sub {
+  margin: 14px auto 0; max-width: 520px;
+  color: rgba(244,239,228,0.72); font-size: 15px; line-height: 1.55;
+}
+
+/* ---------- Stats ---------- */
+.stats {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 14px; margin-bottom: 36px;
+}
+.stat-card {
+  background: var(--cream-card); border-radius: 16px;
+  padding: 22px 18px; text-align: center; box-shadow: var(--shadow);
+  border: 1px solid var(--line);
+}
+.stat-card.accent {
+  background: linear-gradient(160deg, var(--bs-green-bright), #1F8F60);
+  color: #fff; border: none;
+}
+.stat-value { font-size: 34px; font-weight: 800; letter-spacing: -0.02em; }
+.stat-label { font-size: 12px; font-weight: 500; color: var(--muted); margin-top: 6px; text-transform: uppercase; letter-spacing: 0.05em; }
+.stat-card.accent .stat-label { color: rgba(255,255,255,0.85); }
+
+/* ---------- Sections ---------- */
+section h2 {
+  color: var(--cream); font-size: 18px; font-weight: 700;
+  margin-bottom: 14px; letter-spacing: -0.01em;
+}
+
+/* ---------- Recap ---------- */
+.recap { margin-bottom: 36px; }
+.recap-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.result-chip {
+  background: var(--cream-card); border: 1px solid var(--line);
+  border-radius: 14px; padding: 16px 18px; box-shadow: var(--shadow);
+  display: flex; flex-direction: column; gap: 4px;
+}
+.result-game { font-size: 12px; font-weight: 700; color: var(--bs-green-bright); text-transform: uppercase; letter-spacing: 0.05em; }
+.result-matchup { font-size: 15px; font-weight: 600; color: var(--ink); }
+.result-winner { font-size: 14px; font-weight: 700; color: var(--bs-green); margin-top: 2px; }
+
+/* ---------- Leaderboard ---------- */
+.table-wrap {
+  background: var(--cream-card); border-radius: 18px;
+  box-shadow: var(--shadow); border: 1px solid var(--line); overflow: hidden;
+}
+table { width: 100%; border-collapse: collapse; }
+thead th {
+  font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--muted); text-align: left; padding: 16px 14px;
+  border-bottom: 1px solid var(--line); background: #F2ECDD;
+}
+tbody td { padding: 13px 14px; border-bottom: 1px solid var(--line); font-size: 14px; vertical-align: middle; }
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:hover { background: #F6F1E6; }
+
+.col-num { text-align: center; width: 110px; }
+.col-num.strong { font-weight: 700; }
+.col-rank { width: 56px; }
+.col-packs { width: 150px; white-space: nowrap; }
+
+.rank-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 28px; height: 28px; border-radius: 50%;
+  background: #ECE5D4; color: var(--ink); font-weight: 700; font-size: 13px;
+}
+.podium.gold   .rank-badge { background: var(--gold); color: #4a3700; }
+.podium.silver .rank-badge { background: var(--silver); color: #2c3338; }
+.podium.bronze .rank-badge { background: var(--bronze); color: #fff; }
+.podium td { background: linear-gradient(90deg, rgba(231,184,75,0.06), transparent 40%); }
+.podium.silver td { background: linear-gradient(90deg, rgba(185,194,199,0.10), transparent 40%); }
+.podium.bronze td { background: linear-gradient(90deg, rgba(201,138,82,0.08), transparent 40%); }
+
+.col-player { display: flex; align-items: center; gap: 11px; }
+.avatar {
+  width: 30px; height: 30px; border-radius: 50%; flex-shrink: 0;
+  background: var(--bs-green); color: var(--cream);
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 700;
+}
+.player-name { font-weight: 600; }
+.perfect-tag {
+  font-size: 9px; font-weight: 800; letter-spacing: 0.06em;
+  background: var(--bs-green-bright); color: #fff;
+  padding: 2px 6px; border-radius: 6px; vertical-align: middle; margin-left: 4px;
+}
+
+.pct-wrap { display: flex; align-items: center; gap: 8px; justify-content: center; }
+.pct-bar { width: 54px; height: 6px; border-radius: 4px; background: #E4DDCC; overflow: hidden; }
+.pct-bar span { display: block; height: 100%; background: var(--bs-green-bright); border-radius: 4px; }
+.pct-label { font-size: 12px; font-weight: 600; color: var(--muted); min-width: 32px; text-align: right; }
+
+.col-packs b { color: var(--bs-green); margin-left: 2px; }
+
+/* ---------- Footer ---------- */
+.foot { text-align: center; margin-top: 40px; color: rgba(244,239,228,0.5); font-size: 13px; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 640px) {
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  .col-num:nth-child(3) { display: none; } /* hide "Bet" on mobile */
+  thead th:nth-child(3) { display: none; }
+  .col-packs { width: auto; font-size: 12px; }
+  .player-name { font-size: 13px; }
+}
