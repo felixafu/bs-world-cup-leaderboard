@@ -61,6 +61,20 @@ Validates again, branches (never commits to main), pushes, opens a PR, and
 merges it — which republishes the live site:
 https://felixafu.github.io/bs-world-cup-leaderboard/ (~1-2 min).
 
+## Pack pickups (who's collected)
+
+The "Collected" column tracks who has picked up their packs.
+- Ticking a box saves **instantly in the browser** (localStorage) — fine for
+  live handouts, no deploy needed. But those ticks are private to that browser.
+- To make pickups **shared/permanent**, the state must be committed to
+  `pickups.js` (`COLLECTED`: name -> packs collected). The bar above the table
+  shows "N unsaved changes" + a **Copy pickup list to commit** button.
+- To save: click the button (copies the new `pickups.js` contents), then either
+  paste it into `pickups.js` and run `deploy.sh`, or just tell Claude
+  "save pickups: <paste>" and it'll commit + deploy.
+- A box auto-unchecks if a player later earns more packs (they owe more again),
+  so "✓" always means "caught up to date."
+
 ## Notes
 - Scoring logic lives in `app.js` (`computeStandings`); `verify.js` reuses it.
 - Static site, no build step. GitHub Pages serves `main` root.
