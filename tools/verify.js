@@ -47,6 +47,20 @@ rows.slice(0, 12).forEach(r =>
 );
 console.log(`\n  Packs awarded: ${rows.reduce((s, r) => s + r.packs, 0)}`);
 
+// Pickups sanity (warnings only — never blocks a deploy).
+try {
+  eval(fs.readFileSync(path.join(root, "pickups.js"), "utf8").replace("const COLLECTED", "global.COLLECTED"));
+  const owedBy = Object.fromEntries(rows.map(r => [r.name, r.packs]));
+  let collected = 0, pending = 0;
+  for (const [name, count] of Object.entries(global.COLLECTED || {})) {
+    if (!(name in owedBy)) console.log(`  WARN pickups: "${name}" is not a current player`);
+    else if (count > owedBy[name]) console.log(`  WARN pickups: "${name}" marked ${count} collected but only owed ${owedBy[name]}`);
+    collected += Math.min(count, owedBy[name] || 0);
+  }
+  pending = rows.reduce((s, r) => s + r.packs, 0) - collected;
+  console.log(`  Packs collected: ${collected} | awaiting pickup: ${pending}`);
+} catch (e) { /* pickups.js missing — fine */ }
+
 console.log(
   problems
     ? `\nFAIL: ${problems} structural problem(s) above. Fix data.js before deploying.`
