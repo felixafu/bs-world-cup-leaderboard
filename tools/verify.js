@@ -14,7 +14,7 @@ const root = path.join(__dirname, "..");
 eval(fs.readFileSync(path.join(root, "data.js"), "utf8").replace("const GAMES", "global.GAMES"));
 
 // Borrow computeStandings() from app.js without running render().
-const appCode = fs.readFileSync(path.join(root, "app.js"), "utf8").replace(/\nrender\(\);\s*$/, "");
+const appCode = fs.readFileSync(path.join(root, "app.js"), "utf8").replace(/\n(?:init|render)\(\);\s*$/, "");
 eval(appCode + "\nglobal.computeStandings = computeStandings;");
 
 let problems = 0;
