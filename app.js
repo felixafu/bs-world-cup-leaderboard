@@ -146,9 +146,9 @@ function render() {
     const isPerfect = r.played === GAMES.length && r.pct === 100;
     const got = Math.min(collectedCount(r.name), r.packs);
     const caughtUp = r.packs > 0 && got >= r.packs;
-    // gift per pack; collected ones greyed out
-    const gifts = Array.from({ length: r.packs }, (_, i) =>
-      `<span class="gift${i < got ? " gift-collected" : ""}">🎁</span>`).join("");
+    // packs still available to pick up (earned minus already collected)
+    const pending = Math.max(0, r.packs - got);
+    const pendingGifts = "🎁".repeat(pending);
     const collectedCell = r.packs === 0
       ? '<span class="pickup-status muted">—</span>'
       : `<label class="pickup">
@@ -171,7 +171,7 @@ function render() {
             <span class="pct-label">${r.pct}%</span>
           </div>
         </td>
-        <td class="col-packs">${r.packs > 0 ? gifts + ` <b>${r.packs}</b>` : "—"}</td>
+        <td class="col-packs">${pending > 0 ? pendingGifts + ` <b>${pending}</b>` : "—"}</td>
         <td class="col-collected">${collectedCell}</td>
       </tr>
     `;
