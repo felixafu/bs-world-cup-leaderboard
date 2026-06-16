@@ -254,5 +254,87 @@ const GAMES = [
       "Draw": ["Nevena Arnould", "Lauren Anderson", "Amaya Rutherford"],
       "Tunisia": ["Gavin"]
     }
+  },
+  {
+    id: 13,
+    label: "Game 13",
+    matchup: "Spain vs Cape Verde",
+    date: "Jun 15",
+    winner: "Draw",     // Spain 0-0 Cape Verde — everyone picked Spain
+    freebie: true,       // shock result: nobody got it right, so a consolation pack for all voters
+    options: {
+      "Spain": [
+        "Ariel", "Fatima Mohomud", "George Thomas", "Nora",
+        "Malavika Nair Santhosh Kumar", "Gui", "Stef", "Beka", "Ishaq",
+        "Mauricio", "Nickel", "Alicia", "Harriet", "Lara Knight", "Alice Fontaine",
+        "Rory", "Cian", "Amaya Rutherford", "Madeleine McCartney", "Patricia Palasz",
+        "Ignacio Llado", "Sophie Hills", "Måns", "Haimini", "Mariana", "Hannah",
+        "Cris", "becky", "Rafael", "Merve", "Glynis", "Vaiva", "Paola Han",
+        "Ben Attwood", "Ello Han", "Uğur", "Alfred Birch", "Gavin", "Felix Liu"
+      ],
+      "Draw": [],
+      "Cape Verde": []
+    }
+  },
+  {
+    id: 14,
+    label: "Game 14",
+    matchup: "Belgium vs Egypt",
+    date: "Jun 15",
+    winner: "Draw",     // Belgium 1-1 Egypt
+    options: {
+      "Belgium": [
+        "Fatima Mohomud", "George Thomas", "Malavika Nair Santhosh Kumar", "Gui",
+        "Stef", "Ishaq", "Mauricio", "Nickel", "Alicia", "Harriet", "Lara Knight",
+        "Alice Fontaine", "Rory", "Cian", "Amaya Rutherford", "Madeleine McCartney",
+        "Ignacio Llado", "Sophie Hills", "Måns", "Haimini", "Mariana", "Hannah",
+        "Cris", "becky", "Rafael", "Glynis", "Vaiva", "Paola Han", "Ben Attwood",
+        "Felix Liu"
+      ],
+      "Draw": ["Ariel", "Nora", "Beka", "Patricia Palasz", "Uğur", "Alfred Birch"],
+      "Egypt": ["Merve", "Ello Han", "Gavin"]
+    }
+  },
+  {
+    id: 15,
+    label: "Game 15",
+    matchup: "Saudi Arabia vs Uruguay",
+    date: "Jun 15",
+    winner: "Draw",     // Saudi Arabia 1-1 Uruguay
+    options: {
+      "Saudi Arabia": ["Nickel", "Alicia"],
+      "Draw": ["Rory", "Amaya Rutherford", "Sophie Hills", "Haimini"],
+      "Uruguay": [
+        "Ariel", "Fatima Mohomud", "George Thomas", "Nora",
+        "Malavika Nair Santhosh Kumar", "Gui", "Stef", "Beka", "Ishaq", "Mauricio",
+        "Harriet", "Lara Knight", "Alice Fontaine", "Cian", "Madeleine McCartney",
+        "Patricia Palasz", "Ignacio Llado", "Måns", "Mariana", "Hannah", "Cris",
+        "becky", "Rafael", "Merve", "Glynis", "Vaiva", "Paola Han", "Ben Attwood",
+        "Ello Han", "Uğur", "Alfred Birch", "Gavin", "Felix Liu"
+      ]
+    }
+  },
+  {
+    id: 16,
+    label: "Game 16",
+    matchup: "Iran vs New Zealand",
+    date: "Jun 15",
+    winner: "Draw",     // Iran 2-2 New Zealand
+    options: {
+      "Iran": [
+        "Ariel", "Nora", "Beka", "Nickel", "Alicia", "Rory", "Cian",
+        "Amaya Rutherford", "Madeleine McCartney", "Måns", "Vaiva", "Uğur", "Gavin"
+      ],
+      "Draw": [
+        "Fatima Mohomud", "George Thomas", "Malavika Nair Santhosh Kumar",
+        "Mauricio", "Harriet", "Lara Knight", "Alice Fontaine", "Ignacio Llado",
+        "Haimini", "Mariana", "Cris", "becky", "Rafael", "Glynis", "Paola Han",
+        "Ello Han", "Felix Liu"
+      ],
+      "New Zealand": [
+        "Gui", "Stef", "Ishaq", "Patricia Palasz", "Sophie Hills", "Hannah",
+        "Merve", "Ben Attwood", "Alfred Birch"
+      ]
+    }
   }
 ];

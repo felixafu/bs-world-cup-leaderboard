@@ -35,6 +35,13 @@ Rules that prevent silent scoring bugs:
 - Keep the option keys matching the team names shown in the poll.
 - Empty options are fine: `"Curaçao": []`.
 
+**Consolation packs** (`freebie: true`): if Felix says "give everyone a pack
+for this game anyway" (e.g. a shock result where the whole group picked the
+loser), add `freebie: true` to that game block. Every voter then gets 1 pack
+regardless of their pick, but it is NOT counted as a correct guess — accuracy
+stays honest, and `packs` can exceed `correct`. Still set `winner` to the real
+result.
+
 ## 2. Get the real results — ONE lookup, not one-per-match
 
 All of a day's results sit on a single page. Fetch one and read them all:
