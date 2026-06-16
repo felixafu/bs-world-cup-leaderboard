@@ -3,6 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>
+    // The GitHub Pages copy is a stale, read-only mirror. Anyone landing there
+    // gets bounced to the live Railway app. On Railway this is a no-op, so the
+    // same file works for both. Runs first in <head> to avoid a flash.
+    (function () {
+      if (location.hostname.endsWith("github.io")) {
+        location.replace("https://bs-world-cup-leaderboard-production.up.railway.app/");
+      }
+    })();
+  </script>
   <title>Blank Street Panini — World Cup Leaderboard</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
