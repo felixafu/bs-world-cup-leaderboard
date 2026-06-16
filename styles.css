@@ -176,9 +176,6 @@ tbody tr:hover { background: var(--green-tint); }
 .col-packs b { color: var(--pm-green); margin-left: 2px; }
 
 /* ---------- Pack pickups ---------- */
-.col-packs .gift { display: inline-block; }
-.col-packs .gift-collected { filter: grayscale(1); opacity: 0.4; } /* picked up */
-
 /* The checkbox column shows only in edit mode (table gets .editing) */
 .col-collected { width: 100px; text-align: center; display: none; }
 table.editing .col-collected { display: table-cell; }
