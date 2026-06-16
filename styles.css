@@ -176,7 +176,12 @@ tbody tr:hover { background: var(--green-tint); }
 .col-packs b { color: var(--pm-green); margin-left: 2px; }
 
 /* ---------- Pack pickups ---------- */
-.col-collected { width: 100px; text-align: center; }
+.col-packs .gift { display: inline-block; }
+.col-packs .gift-collected { filter: grayscale(1); opacity: 0.4; } /* picked up */
+
+/* The checkbox column shows only in edit mode (table gets .editing) */
+.col-collected { width: 100px; text-align: center; display: none; }
+table.editing .col-collected { display: table-cell; }
 .pickup {
   display: inline-flex; align-items: center; gap: 8px;
   cursor: pointer; justify-content: center;
@@ -216,9 +221,9 @@ tr.collected-done td { background: linear-gradient(90deg, rgba(91,184,30,0.07), 
 /* ---------- Responsive ---------- */
 @media (max-width: 640px) {
   .stats { grid-template-columns: repeat(2, 1fr); }
-  /* Hide Bet (col 3) and Accuracy (col 5) to make room for the Collected column */
-  .col-num:nth-child(3), thead th:nth-child(3),
-  .col-num:nth-child(5), thead th:nth-child(5) { display: none; }
+  /* Hide Bet (col 3) always; drop Accuracy (col 5) only when the edit column is on */
+  .col-num:nth-child(3), thead th:nth-child(3) { display: none; }
+  table.editing .col-num:nth-child(5), table.editing thead th:nth-child(5) { display: none; }
   .col-packs { width: auto; font-size: 12px; }
   .col-collected { width: auto; }
   .player-name { font-size: 13px; }
