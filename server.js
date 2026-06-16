@@ -63,6 +63,22 @@ function savePickups(map) {
 
 let pickups = loadPickups();
 
+// One-time migration: everyone now gets 2 baseline packs (added to "owed" for
+// all players in app.js). Anyone who ALREADY had pickups is assumed to have
+// collected those 2 baseline packs too, so bump their stored count by 2.
+// Gated by a marker file so it runs exactly once per volume.
+(function applyBaselineV2() {
+  const flag = path.join(DATA_DIR, ".applied-baseline-2");
+  try { if (fs.existsSync(flag)) return; } catch (e) { return; }
+  let bumped = 0;
+  for (const name of Object.keys(pickups)) {
+    if (pickups[name] > 0) { pickups[name] += 2; bumped++; }
+  }
+  if (bumped) savePickups(pickups);
+  try { fs.writeFileSync(flag, "applied\n"); } catch (e) { /* non-volume disk — will re-run next boot, same result */ }
+  console.log(`[pickups] baseline-2 migration applied (+2 collected to ${bumped} existing holders)`);
+})();
+
 // ---- app ----
 const app = express();
 app.use(express.json());

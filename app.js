@@ -18,6 +18,10 @@ function computeStandings(games) {
     });
   });
 
+  // Everyone in the list gets 2 baseline packs, regardless of correct guesses.
+  const BASELINE_PACKS = 2;
+  players.forEach(p => { p.packs += BASELINE_PACKS; });
+
   const rows = [...players.values()].map(p => ({
     ...p,
     pct: p.played ? Math.round((p.correct / p.played) * 100) : 0
