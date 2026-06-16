@@ -13,6 +13,7 @@ function computeStandings(games) {
         const p = players.get(name);
         p.played += 1;
         if (right) { p.correct += 1; p.packs += 1; }
+        else if (game.freebie) { p.packs += 1; } // consolation: everyone who voted gets a pack, but it's not a correct guess
       });
     });
   });
