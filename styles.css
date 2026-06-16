@@ -200,6 +200,7 @@ tr.collected-done td { background: linear-gradient(90deg, rgba(91,184,30,0.07), 
 .pickups-actions { margin-left: auto; display: flex; align-items: center; gap: 12px; }
 .pickups-clean { color: var(--green-mid); font-weight: 600; }
 .pickups-dirty { color: var(--danger); font-weight: 700; }
+.pickups-editing { color: var(--green-success); font-weight: 700; }
 .pickups-save {
   border: none; cursor: pointer;
   background: var(--pm-green); color: var(--white);

@@ -1,0 +1,16 @@
+{
+  "name": "bs-world-cup-leaderboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "World Cup Panini leaderboard + shared pack-pickup tracking",
+  "scripts": {
+    "start": "node server.js",
+    "verify": "node tools/verify.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

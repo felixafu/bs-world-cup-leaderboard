@@ -70,18 +70,19 @@ https://felixafu.github.io/bs-world-cup-leaderboard/ (~1-2 min).
 
 ## Pack pickups (who's collected)
 
-The "Collected" column tracks who has picked up their packs.
-- Ticking a box saves **instantly in the browser** (localStorage) — fine for
-  live handouts, no deploy needed. But those ticks are private to that browser.
-- To make pickups **shared/permanent**, the state must be committed to
-  `pickups.js` (`COLLECTED`: name -> packs collected). The bar above the table
-  shows "N unsaved changes" + a **Copy pickup list to commit** button.
-- To save: click the button (copies the new `pickups.js` contents), then either
-  paste it into `pickups.js` and run `deploy.sh`, or just tell Claude
-  "save pickups: <paste>" and it'll commit + deploy.
-- A box auto-unchecks if a player later earns more packs (they owe more again),
-  so "✓" always means "caught up to date."
+The "Collected" column is **server-backed and shared** (see `server.js`), so
+multiple people manage one live list. It is NOT part of the daily deploy.
+- Anyone editing clicks **Edit pickups**, enters the passcode (Railway env var
+  `EDIT_PASSCODE`), and ticks people off. Saves instantly; others see it in ~8s.
+- State is a JSON file on a Railway Volume at `/data/pickups.json`, seeded once
+  from `pickups.js`. `pickups.js` is just the initial seed now — editing it and
+  redeploying does NOT change live pickups once the volume has data.
+- A box auto-unchecks if a player later earns more packs, so "✓" always means
+  "caught up to date."
+- If the API is down / opened without the server, the page shows pickups
+  read-only from the `pickups.js` snapshot.
 
 ## Notes
 - Scoring logic lives in `app.js` (`computeStandings`); `verify.js` reuses it.
-- Static site, no build step. GitHub Pages serves `main` root.
+- Runs as a Node server (`npm start`) on Railway; GitHub Pages is a read-only
+  mirror. Pushing `main` via `deploy.sh` redeploys both.
