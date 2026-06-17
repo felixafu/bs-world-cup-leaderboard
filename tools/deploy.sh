@@ -12,6 +12,9 @@ MSG="${1:-Update leaderboard}"
 # 1. Validate. Aborts the whole deploy if anything is wrong.
 node tools/verify.js
 
+# 1b. Stamp the deploy time so the site can show "last updated" / staleness.
+printf 'const LAST_UPDATED = "%s";\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > version.js
+
 # 2. Branch if we're on main.
 BRANCH="$(git branch --show-current)"
 if [ "$BRANCH" = "main" ]; then

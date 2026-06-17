@@ -215,6 +215,23 @@ tr.collected-done td { background: linear-gradient(90deg, rgba(91,184,30,0.07), 
 .pickups-save:hover { filter: brightness(1.08); }
 .pickups-save.done { background: var(--green-success); color: var(--green-6); }
 
+/* ---------- Last updated badge ---------- */
+.last-updated {
+  position: fixed; bottom: 14px; right: 14px; z-index: 50;
+  background: rgba(31, 39, 29, 0.82); color: rgba(253, 253, 253, 0.82);
+  border: 1px solid rgba(253, 253, 253, 0.14);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.01em;
+  padding: 7px 13px; border-radius: var(--r-pill);
+  -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);
+  box-shadow: var(--shadow);
+}
+.last-updated.stale {
+  background: #5a4a12; color: #ffe7a3; border-color: rgba(255, 210, 90, 0.4);
+}
+@media (max-width: 640px) {
+  .last-updated { font-size: 11px; bottom: 8px; right: 8px; padding: 6px 10px; }
+}
+
 /* ---------- Footer ---------- */
 .foot { text-align: center; margin-top: 40px; color: rgba(253,253,253,0.5); font-size: 13px; }
 
