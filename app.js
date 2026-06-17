@@ -50,6 +50,23 @@ function initials(name) {
   return name.split(/\s+/).slice(0, 2).map(w => w[0]).join("").toUpperCase();
 }
 
+// ---------- "Last updated" badge ----------
+// LAST_UPDATED (version.js) is stamped at deploy time. Show how long ago, and
+// warn if it's been over a day (results may not be in yet).
+function renderLastUpdated() {
+  const el = document.getElementById("last-updated");
+  if (!el) return;
+  const iso = typeof LAST_UPDATED !== "undefined" ? LAST_UPDATED : null;
+  const then = iso ? new Date(iso).getTime() : NaN;
+  if (!iso || isNaN(then)) { el.style.display = "none"; return; }
+  const ms = Date.now() - then;
+  const mins = Math.floor(ms / 60000), hrs = Math.floor(mins / 60), days = Math.floor(hrs / 24);
+  const ago = mins < 1 ? "just now" : mins < 60 ? `${mins}m ago` : hrs < 24 ? `${hrs}h ago` : `${days}d ago`;
+  const stale = ms >= 24 * 3600 * 1000;
+  el.className = "last-updated" + (stale ? " stale" : "");
+  el.textContent = stale ? `⚠️ Updated ${ago} — may be stale, refreshing soon` : `Updated ${ago}`;
+}
+
 // ---------- Pack pickups (shared, server-backed) ----------
 // State lives on the server (server.js): name -> packs collected. Everyone
 // reads it; editing is gated by a passcode checked server-side. If the API
@@ -182,6 +199,7 @@ function render() {
   document.querySelector("table").classList.toggle("editing", canEdit());
 
   renderPickupsBar(rows);
+  renderLastUpdated();
 }
 
 function init() {
