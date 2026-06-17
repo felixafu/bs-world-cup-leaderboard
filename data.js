@@ -336,5 +336,93 @@ const GAMES = [
         "Merve", "Ben Attwood", "Alfred Birch"
       ]
     }
+  },
+  {
+    id: 17,
+    label: "Game 17",
+    matchup: "France vs Senegal",
+    date: "Jun 16",
+    winner: "France", // France 3-1 Senegal
+    options: {
+      "France": [
+        "Sophia Newton", "Kasia", "Fatima Mohomud", "Gavin", "James Johns",
+        "Bryony", "Nickel", "Ishaq", "Cian", "Ross MacPherson", "Lara Knight",
+        "Uğur", "Paulina", "Alfred Birch", "Glynis", "Vaiva", "Eren", "Biz",
+        "Lauren Anderson", "Nora", "Ello Han", "Måns", "Haimini", "becky",
+        "Patricia Palasz", "Rory", "Cris", "Felix Liu", "Amaya Rutherford",
+        "Madeleine McCartney", "Ariel", "Paola Han", "Yasmin", "Sophie Hills",
+        "Mariana", "Gui", "Mauricio", "Hannah", "Merve", "Stef", "Rafael",
+        "Ben Attwood"
+      ],
+      "Draw": ["Ignacio Llado", "Rocio"],
+      "Senegal": ["George Thomas", "Izzi"]
+    }
+  },
+  {
+    id: 18,
+    label: "Game 18",
+    matchup: "Iraq vs Norway",
+    date: "Jun 16",
+    winner: "Norway", // Norway 4-1 Iraq
+    options: {
+      "Iraq": ["Ignacio Llado", "Rocio", "Haimini", "Izzi"],
+      "Draw": [
+        "Fatima Mohomud", "Nickel", "Cian", "Alfred Birch", "Patricia Palasz",
+        "Cris", "Amaya Rutherford", "Madeleine McCartney", "Yasmin", "Mariana",
+        "Hannah"
+      ],
+      "Norway": [
+        "Sophia Newton", "Kasia", "Gavin", "James Johns", "Bryony", "Ishaq",
+        "Ross MacPherson", "Lara Knight", "Uğur", "Paulina", "Glynis", "Vaiva",
+        "George Thomas", "Eren", "Biz", "Lauren Anderson", "Nora", "Ello Han",
+        "Måns", "becky", "Rory", "Felix Liu", "Ariel", "Paola Han",
+        "Sophie Hills", "Gui", "Mauricio", "Merve", "Stef", "Rafael",
+        "Ben Attwood"
+      ]
+    }
+  },
+  {
+    id: 19,
+    label: "Game 19",
+    matchup: "Argentina vs Algeria",
+    date: "Jun 16",
+    winner: "Argentina", // Argentina 3-0 Algeria
+    options: {
+      "Argentina": [
+        "Sophia Newton", "Kasia", "Fatima Mohomud", "Gavin", "James Johns",
+        "Bryony", "Ishaq", "Cian", "Ross MacPherson", "Lara Knight", "Uğur",
+        "Paulina", "Alfred Birch", "Ignacio Llado", "Glynis", "Vaiva",
+        "George Thomas", "Eren", "Biz", "Lauren Anderson", "Rocio", "Nora",
+        "Ello Han", "Måns", "Haimini", "becky", "Patricia Palasz", "Cris",
+        "Amaya Rutherford", "Madeleine McCartney", "Ariel", "Paola Han", "Yasmin",
+        "Sophie Hills", "Izzi", "Gui", "Mauricio", "Hannah", "Merve", "Stef",
+        "Rafael", "Ben Attwood"
+      ],
+      "Draw": ["Nickel", "Rory", "Felix Liu", "Mariana"],
+      "Algeria": []
+    }
+  },
+  {
+    id: 20,
+    label: "Game 20",
+    matchup: "Austria vs Jordan",
+    date: "Jun 16",
+    winner: "Austria", // Austria 3-1 Jordan
+    options: {
+      "Austria": [
+        "Sophia Newton", "Gavin", "James Johns", "Bryony", "Cian",
+        "Ross MacPherson", "Lara Knight", "Uğur", "Paulina", "Ignacio Llado",
+        "Glynis", "Vaiva", "Eren", "Biz", "Lauren Anderson", "Ello Han", "becky",
+        "Patricia Palasz", "Rory", "Cris", "Felix Liu", "Amaya Rutherford",
+        "Ariel", "Paola Han", "Mariana", "Hannah", "Merve", "Stef", "Rafael",
+        "Ben Attwood"
+      ],
+      "Draw": [
+        "Kasia", "Fatima Mohomud", "Ishaq", "Alfred Birch", "George Thomas",
+        "Rocio", "Nora", "Måns", "Haimini", "Madeleine McCartney", "Yasmin",
+        "Sophie Hills", "Izzi", "Gui", "Mauricio"
+      ],
+      "Jordan": ["Nickel"]
+    }
   }
 ];
