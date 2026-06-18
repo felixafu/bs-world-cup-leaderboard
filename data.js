@@ -424,5 +424,102 @@ const GAMES = [
       ],
       "Jordan": ["Nickel"]
     }
+  },
+  {
+    id: 21,
+    label: "Game 21",
+    matchup: "Portugal vs DR Congo",
+    date: "Jun 17",
+    winner: "Draw", // Portugal 1-1 DR Congo — 55 of 56 picked Portugal (no freebie unless Felix says)
+    options: {
+      "Portugal": [
+        "Carlo Shyrbi", "Bryony", "Mauricio", "Haimini", "Yasmin",
+        "Fatima Mohomud", "becky", "Kasia", "Felix Liu", "Maria Balsini", "Nickel",
+        "Alice Fontaine", "Malavika Nair Santhosh Kumar", "Rocio", "Rory", "Stef",
+        "Nora", "Amaya Rutherford", "Nevena Arnould", "Hash", "Ramil", "Eren",
+        "Adam Newell", "Cian", "Harriet", "Madeleine McCartney", "Issy",
+        "Ignacio Llado", "Måns", "Julia Dias", "Alfred Birch", "Ello Han",
+        "Glynis", "Estera", "Biz", "George Thomas", "Hannah", "Beka", "Ariel",
+        "Rafael", "Gui", "Uğur", "James Johns", "Camila", "Max", "Cris",
+        "Sophie Hills", "Sarj", "Gavin", "Cara Bustard", "Ross MacPherson",
+        "Paola Han", "Patricia Palasz", "Mariana", "Merve"
+      ],
+      "Draw": [],
+      "DR Congo": ["Martina"]
+    }
+  },
+  {
+    id: 22,
+    label: "Game 22",
+    matchup: "England vs Croatia",
+    date: "Jun 17",
+    winner: "England", // England 4-2 Croatia
+    options: {
+      "England": [
+        "Bryony", "Mauricio", "Haimini", "Fatima Mohomud", "Kasia", "Felix Liu",
+        "Nickel", "Alice Fontaine", "Malavika Nair Santhosh Kumar", "Rocio",
+        "Rory", "Nevena Arnould", "Ramil", "Adam Newell", "Harriet", "Issy",
+        "Ignacio Llado", "Julia Dias", "Alfred Birch", "Glynis", "Estera", "Biz",
+        "George Thomas", "Hannah", "Beka", "Ariel", "Rafael", "Uğur",
+        "James Johns", "Camila", "Cris", "Sarj", "Cara Bustard", "Merve"
+      ],
+      "Draw": [
+        "Carlo Shyrbi", "Yasmin", "becky", "Maria Balsini", "Martina", "Stef",
+        "Nora", "Amaya Rutherford", "Eren", "Cian", "Madeleine McCartney", "Måns",
+        "Gui", "Max", "Sophie Hills", "Ross MacPherson", "Paola Han",
+        "Patricia Palasz", "Mariana"
+      ],
+      "Croatia": ["Hash", "Ello Han", "Gavin"]
+    }
+  },
+  {
+    id: 23,
+    label: "Game 23",
+    matchup: "Uzbekistan vs Colombia",
+    date: "Jun 17",
+    winner: "Colombia", // Colombia 3-1 Uzbekistan
+    options: {
+      "Uzbekistan": ["Carlo Shyrbi", "Ariel"],
+      "Draw": [
+        "Haimini", "Kasia", "Alice Fontaine", "Rory", "Stef", "Ignacio Llado",
+        "Måns", "Beka"
+      ],
+      "Colombia": [
+        "Bryony", "Mauricio", "Yasmin", "Fatima Mohomud", "becky", "Felix Liu",
+        "Maria Balsini", "Nickel", "Martina", "Malavika Nair Santhosh Kumar",
+        "Rocio", "Nora", "Amaya Rutherford", "Nevena Arnould", "Hash", "Ramil",
+        "Eren", "Adam Newell", "Cian", "Harriet", "Madeleine McCartney", "Issy",
+        "Julia Dias", "Alfred Birch", "Ello Han", "Glynis", "Estera", "Biz",
+        "George Thomas", "Hannah", "Rafael", "Gui", "Uğur", "James Johns",
+        "Camila", "Max", "Cris", "Sophie Hills", "Sarj", "Gavin", "Cara Bustard",
+        "Ross MacPherson", "Paola Han", "Patricia Palasz", "Mariana", "Merve"
+      ]
+    }
+  },
+  {
+    id: 24,
+    label: "Game 24",
+    matchup: "Ghana vs Panama",
+    date: "Jun 17",
+    winner: "Ghana", // Ghana 1-0 Panama
+    options: {
+      "Ghana": [
+        "Carlo Shyrbi", "Bryony", "Yasmin", "becky", "Kasia", "Maria Balsini",
+        "Alice Fontaine", "Martina", "Rory", "Stef", "Nora", "Amaya Rutherford",
+        "Cian", "Madeleine McCartney", "Måns", "Alfred Birch", "Estera", "Biz",
+        "Hannah", "Beka", "Uğur", "Max", "Sarj"
+      ],
+      "Draw": [
+        "Mauricio", "Haimini", "Fatima Mohomud", "Felix Liu",
+        "Malavika Nair Santhosh Kumar", "Nevena Arnould", "Hash", "Ramil", "Eren",
+        "Harriet", "Issy", "George Thomas", "Ariel", "Rafael", "Camila", "Cris",
+        "Sophie Hills", "Gavin", "Cara Bustard", "Paola Han", "Patricia Palasz"
+      ],
+      "Panama": [
+        "Nickel", "Rocio", "Adam Newell", "Ignacio Llado", "Julia Dias",
+        "Ello Han", "Glynis", "Gui", "James Johns", "Ross MacPherson", "Mariana",
+        "Merve"
+      ]
+    }
   }
 ];
