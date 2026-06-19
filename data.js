@@ -521,5 +521,100 @@ const GAMES = [
         "Merve"
       ]
     }
+  },
+  {
+    id: 25,
+    label: "Game 25",
+    matchup: "Czechia vs South Africa",
+    date: "Jun 18",
+    winner: "Draw", // Czechia 1-1 South Africa
+    options: {
+      "Czechia": [
+        "Hash", "Kasia", "George Thomas", "Ramil", "Kathryn", "Max", "Paola Han",
+        "Glynis", "Jess", "Mariana", "Cara Bustard", "Uğur", "Jordan Lapthorne",
+        "Sophia Newton", "Yasmin", "Gavin", "Camila", "Lara Knight", "Merve",
+        "Adam Newell", "Jaime", "Måns", "Carlo Shyrbi", "Biz", "Beka", "becky",
+        "Cian", "Rafael", "Rory", "Alfred Birch"
+      ],
+      "Draw": [
+        "Nora", "Maria Balsini", "Eren", "Ishaq", "Haimini", "Fatima Mohomud",
+        "Gui", "Patricia Palasz", "Estera", "James Johns", "Ben Attwood"
+      ],
+      "South Africa": [
+        "Hannah", "Nickel", "Ross MacPherson", "Lottie Walden", "Martina",
+        "Rocio", "Julia Dias", "Ello Han"
+      ]
+    }
+  },
+  {
+    id: 26,
+    label: "Game 26",
+    matchup: "Switzerland vs Bosnia and Herzegovina",
+    date: "Jun 18",
+    winner: "Switzerland", // Switzerland 4-1 Bosnia and Herzegovina
+    options: {
+      "Switzerland": [
+        "Hannah", "Hash", "Kasia", "George Thomas", "Ramil", "Kathryn", "Max",
+        "Nora", "Maria Balsini", "Glynis", "Eren", "Cara Bustard", "Haimini",
+        "Lottie Walden", "Fatima Mohomud", "Martina", "Julia Dias",
+        "Sophia Newton", "Gui", "Yasmin", "Camila", "Lara Knight", "Merve",
+        "Estera", "Jaime", "Måns", "Biz", "Beka", "becky", "James Johns",
+        "Ben Attwood", "Alfred Birch"
+      ],
+      "Draw": [
+        "Paola Han", "Ross MacPherson", "Jess", "Mariana", "Ishaq", "Uğur",
+        "Rocio", "Patricia Palasz", "Gavin", "Ello Han", "Cian", "Rory"
+      ],
+      "Bosnia and Herzegovina": [
+        "Nickel", "Jordan Lapthorne", "Adam Newell", "Carlo Shyrbi", "Rafael"
+      ]
+    }
+  },
+  {
+    id: 27,
+    label: "Game 27",
+    matchup: "Canada vs Qatar",
+    date: "Jun 18",
+    winner: "Canada", // Canada 6-0 Qatar
+    options: {
+      "Canada": [
+        "Hash", "Kasia", "George Thomas", "Kathryn", "Nickel", "Max", "Paola Han",
+        "Nora", "Ross MacPherson", "Ishaq", "Cara Bustard", "Uğur",
+        "Lottie Walden", "Jordan Lapthorne", "Sophia Newton", "Gui",
+        "Patricia Palasz", "Yasmin", "Gavin", "Camila", "Jaime", "Måns",
+        "Ello Han", "Cian", "Rory", "Ben Attwood", "Alfred Birch"
+      ],
+      "Draw": [
+        "Hannah", "Ramil", "Glynis", "Mariana", "Haimini", "Fatima Mohomud",
+        "Martina", "Rocio", "Julia Dias", "Lara Knight", "Adam Newell",
+        "Carlo Shyrbi", "Biz", "Beka", "becky", "Rafael"
+      ],
+      "Qatar": ["Maria Balsini", "Eren", "Jess", "Merve", "Estera", "James Johns"]
+    }
+  },
+  {
+    id: 28,
+    label: "Game 28",
+    matchup: "Mexico vs South Korea",
+    date: "Jun 18",
+    winner: "Mexico", // Mexico 1-0 South Korea
+    options: {
+      "Mexico": [
+        "Hannah", "Hash", "Kasia", "George Thomas", "Kathryn", "Nickel", "Nora",
+        "Maria Balsini", "Eren", "Mariana", "Lottie Walden", "Rocio", "Julia Dias",
+        "Gui", "Patricia Palasz", "Camila", "James Johns", "Ben Attwood",
+        "Alfred Birch"
+      ],
+      "Draw": [
+        "Max", "Ross MacPherson", "Cara Bustard", "Uğur", "Martina",
+        "Sophia Newton", "Yasmin", "Måns", "Carlo Shyrbi", "becky"
+      ],
+      "South Korea": [
+        "Ramil", "Paola Han", "Glynis", "Jess", "Ishaq", "Haimini",
+        "Jordan Lapthorne", "Fatima Mohomud", "Gavin", "Lara Knight", "Merve",
+        "Estera", "Adam Newell", "Jaime", "Biz", "Beka", "Ello Han", "Cian",
+        "Rafael", "Rory"
+      ]
+    }
   }
 ];
