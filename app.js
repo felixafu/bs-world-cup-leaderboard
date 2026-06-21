@@ -18,8 +18,10 @@ function computeStandings(games) {
     });
   });
 
-  // Everyone in the list gets 2 baseline packs, regardless of correct guesses.
-  const BASELINE_PACKS = 2;
+  // Everyone in the list gets baseline packs, regardless of correct guesses:
+  // 2 original baseline + 3 comp for a day voting wasn't put up = 5.
+  // (The +3 are uncollected, so they show as available to pick up for everyone.)
+  const BASELINE_PACKS = 5;
   players.forEach(p => { p.packs += BASELINE_PACKS; });
 
   const rows = [...players.values()].map(p => ({
