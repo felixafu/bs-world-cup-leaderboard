@@ -616,5 +616,107 @@ const GAMES = [
         "Rafael", "Rory"
       ]
     }
+  },
+  {
+    id: 29,
+    label: "Game 29",
+    matchup: "Brazil vs Haiti",
+    date: "Jun 19",
+    winner: "Brazil", // Brazil 3-0 Haiti — everyone picked Brazil
+    options: {
+      "Brazil": [
+        "Sophia Newton", "Nora", "Kasia", "Ramil", "Amaya Rutherford",
+        "Fernando Paal", "Nickel", "Madeleine McCartney", "Fatima Mohomud",
+        "George Thomas", "becky", "Kathryn", "Eren", "Mariana", "Mauricio",
+        "Hannah", "Hash", "Rafael", "Rita", "Lauren Anderson", "Patricia Palasz",
+        "Vaiva", "Beka", "Biz", "Maria Balsini", "Uğur", "Haimini", "amber",
+        "Lottie Walden", "Alicia", "Måns", "Ello Han", "Cara Bustard", "Sarj",
+        "Ash Nicol", "Cian", "Ishaq", "Gavin", "Estera", "Ariel", "Rocio", "Gui",
+        "Glynis", "James Johns", "Lara Knight", "Camila", "Alfred Birch", "Stef",
+        "Felix Liu", "Rory", "Paulina", "Paola Han", "Harriet", "Emma",
+        "Julia Dias", "Adam Newell", "Yasmin", "Sophie Hills", "Ben Attwood",
+        "Merve"
+      ],
+      "Draw": [],
+      "Haiti": []
+    }
+  },
+  {
+    id: 30,
+    label: "Game 30",
+    matchup: "Türkiye vs Paraguay",
+    date: "Jun 19",
+    winner: "Paraguay", // Türkiye 0-1 Paraguay (upset)
+    options: {
+      "Türkiye": [
+        "Kasia", "Ramil", "Amaya Rutherford", "Madeleine McCartney",
+        "Fatima Mohomud", "becky", "Kathryn", "Eren", "Mariana", "Mauricio",
+        "Hannah", "Hash", "Rafael", "Rita", "Lauren Anderson", "Patricia Palasz",
+        "Vaiva", "Uğur", "amber", "Alicia", "Ello Han", "Cara Bustard",
+        "Ash Nicol", "Cian", "Ishaq", "Gavin", "Estera", "Ariel", "Rocio", "Gui",
+        "Camila", "Stef", "Felix Liu", "Harriet", "Emma", "Yasmin", "Merve"
+      ],
+      "Draw": [
+        "Sophia Newton", "Nora", "Fernando Paal", "Beka", "Maria Balsini",
+        "Haimini", "Måns", "Sarj", "Rory", "Paulina", "Paola Han"
+      ],
+      "Paraguay": [
+        "Nickel", "George Thomas", "Biz", "Lottie Walden", "Glynis", "James Johns",
+        "Lara Knight", "Alfred Birch", "Julia Dias", "Adam Newell", "Sophie Hills",
+        "Ben Attwood"
+      ]
+    }
+  },
+  {
+    id: 31,
+    label: "Game 31",
+    matchup: "Scotland vs Morocco",
+    date: "Jun 19",
+    winner: "Morocco", // Scotland 0-1 Morocco
+    options: {
+      "Scotland": [
+        "Fernando Paal", "Nickel", "George Thomas", "Lauren Anderson",
+        "Patricia Palasz", "Vaiva", "Beka", "amber", "Lottie Walden", "Alicia",
+        "Cara Bustard", "Sarj", "Cian", "Gavin", "James Johns", "Stef",
+        "Julia Dias", "Adam Newell", "Ben Attwood", "Merve"
+      ],
+      "Draw": [
+        "Mauricio", "Hannah", "Haimini", "Ello Han", "Ash Nicol", "Ariel", "Gui",
+        "Glynis", "Paulina", "Harriet", "Emma", "Yasmin"
+      ],
+      "Morocco": [
+        "Sophia Newton", "Nora", "Kasia", "Ramil", "Amaya Rutherford",
+        "Madeleine McCartney", "Fatima Mohomud", "becky", "Kathryn", "Eren",
+        "Mariana", "Hash", "Rafael", "Rita", "Biz", "Maria Balsini", "Uğur",
+        "Måns", "Ishaq", "Estera", "Rocio", "Lara Knight", "Camila", "Alfred Birch",
+        "Felix Liu", "Rory", "Paola Han", "Sophie Hills"
+      ]
+    }
+  },
+  {
+    id: 32,
+    label: "Game 32",
+    matchup: "USA vs Australia",
+    date: "Jun 19",
+    winner: "USA", // USA 2-0 Australia
+    options: {
+      "USA": [
+        "Sophia Newton", "Nora", "Kasia", "Ramil", "Amaya Rutherford", "Nickel",
+        "Fatima Mohomud", "George Thomas", "becky", "Kathryn", "Eren", "Mariana",
+        "Mauricio", "Hannah", "Hash", "Rafael", "Rita", "Patricia Palasz", "Vaiva",
+        "Beka", "Biz", "Uğur", "Haimini", "Måns", "Cara Bustard", "Ash Nicol",
+        "Ishaq", "Gavin", "Ariel", "Gui", "Glynis", "Lara Knight", "Camila",
+        "Alfred Birch", "Felix Liu", "Rory", "Paulina", "Paola Han", "Harriet",
+        "Emma", "Adam Newell", "Yasmin"
+      ],
+      "Draw": [
+        "Fernando Paal", "Lauren Anderson", "Maria Balsini", "Sarj", "Cian",
+        "Rocio", "James Johns", "Stef", "Sophie Hills", "Ben Attwood"
+      ],
+      "Australia": [
+        "Madeleine McCartney", "amber", "Lottie Walden", "Alicia", "Ello Han",
+        "Estera", "Julia Dias", "Merve"
+      ]
+    }
   }
 ];
