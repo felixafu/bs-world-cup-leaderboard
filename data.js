@@ -718,5 +718,164 @@ const GAMES = [
         "Estera", "Julia Dias", "Merve"
       ]
     }
+  },
+  {
+    id: 33,
+    label: "Game 33",
+    matchup: "France vs Iraq",
+    date: "Jun 21",
+    winner: "France", // France 3-0 Iraq
+    options: {
+      "France": [
+        "Nickel", "Sophia Newton", "Jess", "Malavika Nair Santhosh Kumar",
+        "Madeleine McCartney", "Kasia", "Ariel", "Nevena Arnould", "Maria Balsini",
+        "Amaya Rutherford", "Ello Han", "Ash Nicol", "Adam Newell", "Gui", "Cian",
+        "Kathryn", "Fernando Paal", "Stef", "Beka", "Lara Knight", "Uğur", "Hash",
+        "Sarj", "Eren", "Ramil", "Mariana", "James Johns", "Paola Han",
+        "Alice Fontaine", "amber", "Gavin", "Camila", "Estera", "Mauricio",
+        "George Thomas", "becky", "Hannah", "Rory", "Rita", "Rafael", "Cris",
+        "Alfred Birch", "Fatima Mohomud", "Yasmin", "Biz", "Patricia Palasz",
+        "Sophie Hills", "Glynis", "Harriet", "Haimini", "Merve", "Lauren Anderson",
+        "Ben Attwood"
+      ],
+      "Draw": ["Martina"],
+      "Iraq": ["Lottie Walden"]
+    }
+  },
+  {
+    id: 34,
+    label: "Game 34",
+    matchup: "Norway vs Senegal",
+    date: "Jun 21",
+    winner: "Norway", // Norway 3-2 Senegal
+    options: {
+      "Norway": [
+        "Nickel", "Sophia Newton", "Kasia", "Ariel", "Amaya Rutherford",
+        "Ello Han", "Ash Nicol", "Fernando Paal", "Beka", "Lara Knight",
+        "Lottie Walden", "Hash", "Ramil", "Mariana", "Gavin", "Camila", "Mauricio",
+        "becky", "Rory", "Rafael", "Fatima Mohomud", "Biz", "Patricia Palasz",
+        "Sophie Hills", "Harriet", "Merve", "Lauren Anderson", "Ben Attwood"
+      ],
+      "Draw": [
+        "Jess", "Malavika Nair Santhosh Kumar", "Madeleine McCartney",
+        "Nevena Arnould", "Maria Balsini", "Stef", "Uğur", "Eren", "Paola Han",
+        "Alice Fontaine", "Hannah", "Cris", "Yasmin", "Glynis", "Haimini"
+      ],
+      "Senegal": [
+        "Adam Newell", "Gui", "Cian", "Kathryn", "Sarj", "James Johns", "amber",
+        "Estera", "George Thomas", "Martina", "Rita", "Alfred Birch"
+      ]
+    }
+  },
+  {
+    id: 35,
+    label: "Game 35",
+    matchup: "Argentina vs Austria",
+    date: "Jun 21",
+    winner: "Argentina", // Argentina 2-0 Austria
+    options: {
+      "Argentina": [
+        "Nickel", "Sophia Newton", "Jess", "Malavika Nair Santhosh Kumar",
+        "Madeleine McCartney", "Kasia", "Ariel", "Nevena Arnould", "Maria Balsini",
+        "Amaya Rutherford", "Ello Han", "Ash Nicol", "Adam Newell", "Gui", "Cian",
+        "Kathryn", "Fernando Paal", "Stef", "Beka", "Lara Knight", "Uğur",
+        "Lottie Walden", "Hash", "Sarj", "Eren", "Ramil", "James Johns",
+        "Paola Han", "Alice Fontaine", "amber", "Gavin", "Camila", "Estera",
+        "Mauricio", "George Thomas", "Martina", "becky", "Hannah", "Rita",
+        "Rafael", "Cris", "Alfred Birch", "Fatima Mohomud", "Yasmin", "Biz",
+        "Patricia Palasz", "Sophie Hills", "Glynis", "Harriet", "Haimini", "Merve",
+        "Lauren Anderson", "Ben Attwood"
+      ],
+      "Draw": ["Mariana", "Rory"],
+      "Austria": []
+    }
+  },
+  {
+    id: 36,
+    label: "Game 36",
+    matchup: "New Zealand vs Egypt",
+    date: "Jun 22",
+    winner: "Egypt", // New Zealand 1-3 Egypt
+    options: {
+      "New Zealand": [
+        "Nevena Arnould", "Ello Han", "Ross MacPherson", "amber", "Nickel",
+        "Jordan Lapthorne", "Malavika Nair Santhosh Kumar", "Sophia Brena",
+        "Gavin", "Sophie Hills", "Rocio", "Sarj"
+      ],
+      "Draw": [
+        "becky", "Sophia Newton", "Fernando Paal", "Lara Knight",
+        "Madeleine McCartney", "Paola Han", "Fatima Mohomud", "Mauricio", "Yasmin",
+        "Cian", "Glynis"
+      ],
+      "Egypt": [
+        "Amaya Rutherford", "Amna", "Ariel", "Lauren Anderson", "Eren", "Jess",
+        "Biz", "Kasia", "Max", "Alice Fontaine", "Ash Nicol", "Elsa Kunushefci",
+        "Merve", "Maria Balsini", "Alfred Birch", "Lottie Walden", "Estera", "Uğur"
+      ]
+    }
+  },
+  {
+    id: 37,
+    label: "Game 37",
+    matchup: "Belgium vs Iran",
+    date: "Jun 22",
+    winner: "Draw", // Belgium 0-0 Iran
+    options: {
+      "Belgium": [
+        "Amaya Rutherford", "Nevena Arnould", "becky", "Sophia Newton",
+        "Ross MacPherson", "Amna", "Ariel", "amber", "Lauren Anderson",
+        "Fernando Paal", "Jess", "Biz", "Lara Knight",
+        "Malavika Nair Santhosh Kumar", "Madeleine McCartney", "Paola Han", "Kasia",
+        "Max", "Alice Fontaine", "Fatima Mohomud", "Ash Nicol", "Elsa Kunushefci",
+        "Merve", "Sophia Brena", "Mauricio", "Yasmin", "Maria Balsini", "Cian",
+        "Gavin", "Sophie Hills", "Alfred Birch", "Rocio", "Glynis", "Lottie Walden",
+        "Estera", "Sarj"
+      ],
+      "Draw": ["Jordan Lapthorne", "Uğur"],
+      "Iran": ["Ello Han", "Nickel", "Eren"]
+    }
+  },
+  {
+    id: 38,
+    label: "Game 38",
+    matchup: "Uruguay vs Cape Verde",
+    date: "Jun 22",
+    winner: "Draw", // Uruguay 2-2 Cape Verde
+    options: {
+      "Uruguay": [
+        "Amaya Rutherford", "Nevena Arnould", "becky", "Sophia Newton", "Amna",
+        "Ariel", "Lauren Anderson", "Fernando Paal", "Nickel", "Eren",
+        "Jordan Lapthorne", "Biz", "Lara Knight", "Paola Han", "Kasia", "Max",
+        "Alice Fontaine", "Fatima Mohomud", "Ash Nicol", "Elsa Kunushefci", "Merve",
+        "Sophia Brena", "Mauricio", "Yasmin", "Maria Balsini", "Cian", "Gavin",
+        "Sophie Hills", "Alfred Birch", "Glynis", "Uğur", "Sarj"
+      ],
+      "Draw": [
+        "Ello Han", "Ross MacPherson", "Jess", "Malavika Nair Santhosh Kumar",
+        "Madeleine McCartney", "Rocio"
+      ],
+      "Cape Verde": ["amber", "Lottie Walden", "Estera"]
+    }
+  },
+  {
+    id: 39,
+    label: "Game 39",
+    matchup: "Spain vs Saudi Arabia",
+    date: "Jun 22",
+    winner: "Spain", // Spain 4-0 Saudi Arabia
+    options: {
+      "Spain": [
+        "Amaya Rutherford", "Nevena Arnould", "becky", "Sophia Newton", "Ello Han",
+        "Ross MacPherson", "Amna", "Ariel", "amber", "Lauren Anderson",
+        "Fernando Paal", "Nickel", "Eren", "Jess", "Jordan Lapthorne", "Biz",
+        "Lara Knight", "Malavika Nair Santhosh Kumar", "Madeleine McCartney",
+        "Paola Han", "Kasia", "Max", "Alice Fontaine", "Fatima Mohomud", "Ash Nicol",
+        "Merve", "Sophia Brena", "Mauricio", "Yasmin", "Maria Balsini", "Cian",
+        "Gavin", "Sophie Hills", "Alfred Birch", "Rocio", "Glynis", "Lottie Walden",
+        "Estera", "Uğur", "Sarj"
+      ],
+      "Draw": ["Elsa Kunushefci"],
+      "Saudi Arabia": []
+    }
   }
 ];
