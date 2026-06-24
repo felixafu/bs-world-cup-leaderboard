@@ -877,5 +877,119 @@ const GAMES = [
       "Draw": ["Elsa Kunushefci"],
       "Saudi Arabia": []
     }
+  },
+  {
+    id: 40,
+    label: "Game 40",
+    matchup: "Jordan vs Algeria",
+    date: "Jun 22",
+    winner: "Algeria", // Jordan 1-2 Algeria
+    options: {
+      "Jordan": [
+        "Nickel", "Malavika Nair Santhosh Kumar", "Ello Han", "Fernando Paal",
+        "Beka", "Lottie Walden", "James Johns", "Martina", "Rita", "Sophie Hills",
+        "Merve", "Ben Attwood"
+      ],
+      "Draw": [
+        "Madeleine McCartney", "Maria Balsini", "Lara Knight", "Ramil", "Mariana",
+        "Paola Han", "Gavin", "becky", "Rory", "Cris", "Fatima Mohomud",
+        "Patricia Palasz", "Glynis", "Haimini"
+      ],
+      "Algeria": [
+        "Sophia Newton", "Jess", "Kasia", "Ariel", "Nevena Arnould",
+        "Amaya Rutherford", "Ash Nicol", "Adam Newell", "Gui", "Cian", "Kathryn",
+        "Stef", "Uğur", "Hash", "Sarj", "Eren", "Alice Fontaine", "amber", "Camila",
+        "Estera", "Mauricio", "George Thomas", "Hannah", "Rafael", "Alfred Birch",
+        "Yasmin", "Biz", "Harriet", "Lauren Anderson"
+      ]
+    }
+  },
+  {
+    id: 41,
+    label: "Game 41",
+    matchup: "Colombia vs DR Congo",
+    date: "Jun 23",
+    winner: "Colombia", // Colombia 1-0 DR Congo
+    options: {
+      "Colombia": [
+        "Maria Balsini", "Bryony", "Nickel", "Ello Han", "Jess", "Sophia Newton",
+        "Rocio", "Eren", "Alicia", "Sophie Hills", "Emma", "Hash", "Alfred Birch",
+        "Stef", "Max", "amber", "Cian", "becky", "Uğur", "Rory", "Gavin", "Harriet",
+        "Fatima Mohomud", "Ash Nicol", "Merve", "Mauricio", "Mariana",
+        "Madeleine McCartney", "Gui", "Rafael", "Beka",
+        "Malavika Nair Santhosh Kumar", "Paola Han", "Hannah", "Estera",
+        "James Johns", "Haimini", "Kathryn", "Yasmin", "Ariel", "Camila", "Biz",
+        "Glynis", "Cris"
+      ],
+      "Draw": ["Amaya Rutherford", "Lauren Anderson", "Ross MacPherson", "Alice Fontaine"],
+      "DR Congo": ["Rita", "Lottie Walden"]
+    }
+  },
+  {
+    id: 42,
+    label: "Game 42",
+    matchup: "Croatia vs Panama",
+    date: "Jun 23",
+    winner: "Croatia", // Croatia 1-0 Panama
+    options: {
+      "Croatia": [
+        "Maria Balsini", "Bryony", "Nickel", "Jess", "Sophia Newton", "Rocio",
+        "Amaya Rutherford", "Hash", "Lauren Anderson", "Alfred Birch", "Stef", "Max",
+        "amber", "Cian", "becky", "Uğur", "Ross MacPherson", "Rory", "Lottie Walden",
+        "Alice Fontaine", "Gavin", "Harriet", "Ash Nicol", "Merve", "Mauricio",
+        "Mariana", "Madeleine McCartney", "Gui", "Rafael", "Beka", "Paola Han",
+        "Hannah", "Estera", "James Johns", "Yasmin", "Ariel", "Camila", "Biz",
+        "Glynis", "Cris"
+      ],
+      "Draw": [
+        "Eren", "Sophie Hills", "Rita", "Fatima Mohomud",
+        "Malavika Nair Santhosh Kumar", "Haimini"
+      ],
+      "Panama": ["Ello Han", "Alicia", "Emma", "Kathryn"]
+    }
+  },
+  {
+    id: 43,
+    label: "Game 43",
+    matchup: "England vs Ghana",
+    date: "Jun 23",
+    winner: "Draw", // England 0-0 Ghana
+    options: {
+      "England": [
+        "Maria Balsini", "Bryony", "Nickel", "Ello Han", "Jess", "Sophia Newton",
+        "Rocio", "Eren", "Amaya Rutherford", "Alicia", "Sophie Hills", "Emma",
+        "Hash", "Lauren Anderson", "Alfred Birch", "Stef", "Max", "amber", "Cian",
+        "Uğur", "Rita", "Ross MacPherson", "Rory", "Lottie Walden", "Alice Fontaine",
+        "Gavin", "Harriet", "Fatima Mohomud", "Ash Nicol", "Merve", "Mauricio",
+        "Mariana", "Madeleine McCartney", "Gui", "Rafael", "Beka",
+        "Malavika Nair Santhosh Kumar", "Paola Han", "Hannah", "Estera",
+        "James Johns", "Haimini", "Kathryn", "Yasmin", "Ariel", "Camila", "Biz",
+        "Glynis", "Cris"
+      ],
+      "Draw": ["becky"],
+      "Ghana": []
+    }
+  },
+  {
+    id: 44,
+    label: "Game 44",
+    matchup: "Portugal vs Uzbekistan",
+    date: "Jun 23",
+    winner: "Portugal", // Portugal 5-0 Uzbekistan
+    options: {
+      "Portugal": [
+        "Maria Balsini", "Bryony", "Nickel", "Ello Han", "Jess", "Sophia Newton",
+        "Rocio", "Eren", "Amaya Rutherford", "Alicia", "Sophie Hills", "Emma",
+        "Hash", "Lauren Anderson", "Alfred Birch", "Stef", "Max", "amber", "Cian",
+        "becky", "Uğur", "Rita", "Ross MacPherson", "Rory", "Lottie Walden",
+        "Alice Fontaine", "Gavin", "Harriet", "Fatima Mohomud", "Ash Nicol", "Merve",
+        "Mariana", "Madeleine McCartney", "Gui", "Rafael", "Beka",
+        "Malavika Nair Santhosh Kumar", "Paola Han", "Hannah", "Estera",
+        "James Johns", "Haimini", "Kathryn", "Yasmin", "Ariel", "Camila", "Biz",
+        "Glynis", "Cris"
+      ],
+      "Draw": ["Mauricio"],
+      "Uzbekistan": []
+    }
   }
 ];
