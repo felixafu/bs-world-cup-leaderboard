@@ -991,5 +991,152 @@ const GAMES = [
       "Draw": ["Mauricio"],
       "Uzbekistan": []
     }
+  },
+  {
+    id: 45,
+    label: "Game 45",
+    matchup: "South Africa vs South Korea",
+    date: "Jun 24",
+    winner: "South Africa", // South Africa 1-0 South Korea
+    options: {
+      "South Africa": [
+        "Stef", "Ramil", "Beka", "Martina", "Lauren Anderson", "Rocio", "Nickel",
+        "James Johns", "Ross MacPherson", "Hannah", "Biz", "amber"
+      ],
+      "Draw": ["Rita", "Nevena Arnould", "Vaiva", "Bryony"],
+      "South Korea": [
+        "Cara Bustard", "Ash Nicol", "Fatima Mohomud", "Ariel", "Amaya Rutherford",
+        "Madeleine McCartney", "Glynis", "Jess", "Haimini", "Sophie Hills",
+        "Mauricio", "Kasia", "Kevin Huang", "Gui", "Eren", "Ishaq", "Amna", "Uğur",
+        "Ello Han", "Estera", "Alfred Birch", "Yasmin", "Maria Balsini", "Cris",
+        "Paola Han", "Rory", "Alice Fontaine", "Camila", "Merve", "Rafael",
+        "Kathryn", "Malavika Nair Santhosh Kumar", "Patricia Palasz", "Max", "Cian",
+        "becky", "Ben Attwood", "Harriet"
+      ]
+    }
+  },
+  {
+    id: 46,
+    label: "Game 46",
+    matchup: "Czechia vs Mexico",
+    date: "Jun 24",
+    winner: "Mexico", // Czechia 0-3 Mexico
+    options: {
+      "Czechia": [
+        "Fatima Mohomud", "Stef", "Glynis", "Martina", "Gui", "Ello Han", "Estera",
+        "Alfred Birch", "Cian", "amber", "Harriet"
+      ],
+      "Draw": [
+        "Amaya Rutherford", "Madeleine McCartney", "Beka", "Uğur", "Yasmin", "Rory",
+        "becky"
+      ],
+      "Mexico": [
+        "Cara Bustard", "Rita", "Ash Nicol", "Ariel", "Jess", "Haimini",
+        "Sophie Hills", "Ramil", "Mauricio", "Kasia", "Nevena Arnould",
+        "Lauren Anderson", "Kevin Huang", "Eren", "Rocio", "Ishaq", "Amna", "Nickel",
+        "Maria Balsini", "Cris", "Paola Han", "James Johns", "Ross MacPherson",
+        "Alice Fontaine", "Camila", "Vaiva", "Merve", "Rafael", "Kathryn",
+        "Malavika Nair Santhosh Kumar", "Patricia Palasz", "Max", "Hannah", "Biz",
+        "Ben Attwood", "Bryony"
+      ]
+    }
+  },
+  {
+    id: 47,
+    label: "Game 47",
+    matchup: "Morocco vs Haiti",
+    date: "Jun 24",
+    winner: "Morocco", // Morocco 4-2 Haiti
+    options: {
+      "Morocco": [
+        "Cara Bustard", "Rita", "Ash Nicol", "Fatima Mohomud", "Ariel",
+        "Amaya Rutherford", "Madeleine McCartney", "Stef", "Jess", "Haimini",
+        "Sophie Hills", "Ramil", "Mauricio", "Kasia", "Beka", "Martina",
+        "Nevena Arnould", "Lauren Anderson", "Kevin Huang", "Gui", "Eren", "Rocio",
+        "Ishaq", "Amna", "Uğur", "Ello Han", "Estera", "Alfred Birch", "Yasmin",
+        "Cris", "Paola Han", "Rory", "James Johns", "Ross MacPherson",
+        "Alice Fontaine", "Camila", "Vaiva", "Merve", "Rafael", "Kathryn",
+        "Malavika Nair Santhosh Kumar", "Max", "Hannah", "Biz", "Cian", "becky",
+        "Ben Attwood", "Harriet", "Bryony"
+      ],
+      "Draw": ["Glynis", "Maria Balsini"],
+      "Haiti": ["Nickel", "Patricia Palasz", "amber"]
+    }
+  },
+  {
+    id: 48,
+    label: "Game 48",
+    matchup: "Scotland vs Brazil",
+    date: "Jun 24",
+    winner: "Brazil", // Scotland 0-3 Brazil
+    options: {
+      "Scotland": [
+        "Cara Bustard", "Beka", "Lauren Anderson", "Ishaq", "Nickel",
+        "Ross MacPherson", "Patricia Palasz"
+      ],
+      "Draw": [
+        "Ash Nicol", "Sophie Hills", "Eren", "Ello Han",
+        "Malavika Nair Santhosh Kumar"
+      ],
+      "Brazil": [
+        "Rita", "Fatima Mohomud", "Ariel", "Amaya Rutherford", "Madeleine McCartney",
+        "Stef", "Glynis", "Jess", "Haimini", "Ramil", "Mauricio", "Kasia", "Martina",
+        "Nevena Arnould", "Kevin Huang", "Gui", "Rocio", "Amna", "Uğur", "Estera",
+        "Alfred Birch", "Yasmin", "Maria Balsini", "Cris", "Paola Han", "Rory",
+        "James Johns", "Alice Fontaine", "Camila", "Vaiva", "Merve", "Rafael",
+        "Kathryn", "Max", "Hannah", "Biz", "Cian", "becky", "amber", "Ben Attwood",
+        "Harriet", "Bryony"
+      ]
+    }
+  },
+  {
+    id: 49,
+    label: "Game 49",
+    matchup: "Bosnia and Herzegovina vs Qatar",
+    date: "Jun 24",
+    winner: "Bosnia and Herzegovina", // Bosnia 3-1 Qatar
+    options: {
+      "Bosnia and Herzegovina": [
+        "Cara Bustard", "Ash Nicol", "Ariel", "Amaya Rutherford",
+        "Madeleine McCartney", "Stef", "Jess", "Mauricio", "Kasia", "Martina",
+        "Nevena Arnould", "Gui", "Ishaq", "Amna", "Uğur", "Ello Han", "Alfred Birch",
+        "Yasmin", "Nickel", "Cris", "Paola Han", "Rory", "Camila", "Merve",
+        "Kathryn", "Max", "Hannah", "Cian", "amber", "Harriet"
+      ],
+      "Draw": [
+        "Fatima Mohomud", "Glynis", "Ramil", "Beka", "Lauren Anderson",
+        "Kevin Huang", "Rocio", "Estera", "Maria Balsini", "Ross MacPherson",
+        "Alice Fontaine", "Rafael", "Patricia Palasz", "becky"
+      ],
+      "Qatar": [
+        "Rita", "Haimini", "Sophie Hills", "Eren", "James Johns", "Vaiva",
+        "Malavika Nair Santhosh Kumar", "Biz", "Ben Attwood", "Bryony"
+      ]
+    }
+  },
+  {
+    id: 50,
+    label: "Game 50",
+    matchup: "Switzerland vs Canada",
+    date: "Jun 24",
+    winner: "Switzerland", // Switzerland 2-1 Canada
+    options: {
+      "Switzerland": [
+        "Madeleine McCartney", "Stef", "Glynis", "Sophie Hills", "Ramil", "Martina",
+        "Nevena Arnould", "Lauren Anderson", "Kevin Huang", "Rocio", "Ello Han",
+        "Estera", "Alfred Birch", "Maria Balsini", "Ross MacPherson", "Camila",
+        "Merve", "Rafael", "Max", "Hannah", "Biz", "Harriet", "Bryony"
+      ],
+      "Draw": [
+        "Cara Bustard", "Fatima Mohomud", "Amaya Rutherford", "Haimini", "Mauricio",
+        "Beka", "Eren", "Amna", "Uğur", "Cris", "Paola Han", "Rory", "James Johns",
+        "Alice Fontaine", "Vaiva", "Malavika Nair Santhosh Kumar", "Patricia Palasz",
+        "Cian"
+      ],
+      "Canada": [
+        "Rita", "Ash Nicol", "Ariel", "Jess", "Kasia", "Gui", "Ishaq", "Yasmin",
+        "Nickel", "Kathryn", "becky", "amber", "Ben Attwood"
+      ]
+    }
   }
 ];
