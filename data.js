@@ -1138,5 +1138,140 @@ const GAMES = [
         "Nickel", "Kathryn", "becky", "amber", "Ben Attwood"
       ]
     }
+  },
+  {
+    id: 55,
+    label: "Game 55",
+    matchup: "Curaçao vs Ivory Coast",
+    date: "Jun 25",
+    winner: "Ivory Coast", // Curaçao 0-2 Ivory Coast
+    options: {
+      "Curaçao": ["Nickel", "Alicia", "Paola Han", "Rocio", "Kathryn", "Harriet"],
+      "Draw": [
+        "Beka", "Malavika Nair Santhosh Kumar", "Cian", "James Johns",
+        "Sophie Hills", "Glynis", "Martina", "Lauren Anderson", "Estera"
+      ],
+      "Ivory Coast": [
+        "Amna", "Alice Fontaine", "Gui", "Ello Han", "Madeleine McCartney",
+        "Mauricio", "Ariel", "Fatima Mohomud", "Amaya Rutherford", "Ramil", "Ishaq",
+        "Alfred Birch", "Maria Balsini", "Ash Nicol", "amber", "Nevena Arnould",
+        "Rory", "Eren", "Hash", "Kevin Huang", "Yasmin", "Camila", "Cris", "Max",
+        "Adam Newell", "Merve", "becky", "Hannah", "Mariana", "Rafael", "Haimini",
+        "Ben Attwood", "Fernando Paal"
+      ]
+    }
+  },
+  {
+    id: 56,
+    label: "Game 56",
+    matchup: "Ecuador vs Germany",
+    date: "Jun 25",
+    winner: "Ecuador", // Ecuador 2-1 Germany (upset)
+    options: {
+      "Ecuador": ["Ello Han", "Rory", "James Johns"],
+      "Draw": ["Nickel", "Beka"],
+      "Germany": [
+        "Amna", "Alice Fontaine", "Gui", "Madeleine McCartney", "Mauricio", "Ariel",
+        "Fatima Mohomud", "Amaya Rutherford", "Ramil", "Ishaq", "Alfred Birch",
+        "Malavika Nair Santhosh Kumar", "Maria Balsini", "Ash Nicol", "amber",
+        "Cian", "Nevena Arnould", "Eren", "Hash", "Alicia", "Kevin Huang", "Yasmin",
+        "Camila", "Cris", "Sophie Hills", "Max", "Adam Newell", "Paola Han", "Merve",
+        "Glynis", "Rocio", "Martina", "Kathryn", "becky", "Lauren Anderson",
+        "Hannah", "Harriet", "Mariana", "Rafael", "Estera", "Haimini", "Ben Attwood",
+        "Fernando Paal"
+      ]
+    }
+  },
+  {
+    id: 57,
+    label: "Game 57",
+    matchup: "Japan vs Sweden",
+    date: "Jun 25",
+    winner: "Draw", // Japan 1-1 Sweden
+    options: {
+      "Japan": [
+        "Amna", "Alice Fontaine", "Madeleine McCartney", "Mauricio", "Ariel",
+        "Amaya Rutherford", "Beka", "Ramil", "Ishaq", "Alfred Birch",
+        "Malavika Nair Santhosh Kumar", "Cian", "Rory", "Hash", "Alicia",
+        "Kevin Huang", "Yasmin", "Camila", "Adam Newell", "Paola Han", "Merve",
+        "Rocio", "Martina", "Kathryn", "becky", "Lauren Anderson", "Rafael",
+        "Fernando Paal"
+      ],
+      "Draw": ["Fatima Mohomud", "Nevena Arnould", "Cris", "Max", "Haimini"],
+      "Sweden": [
+        "Gui", "Nickel", "Ello Han", "Maria Balsini", "Ash Nicol", "amber", "Eren",
+        "James Johns", "Sophie Hills", "Glynis", "Hannah", "Harriet", "Mariana",
+        "Estera", "Ben Attwood"
+      ]
+    }
+  },
+  {
+    id: 58,
+    label: "Game 58",
+    matchup: "Tunisia vs Netherlands",
+    date: "Jun 25",
+    winner: "Netherlands", // Tunisia 1-3 Netherlands
+    options: {
+      "Tunisia": ["James Johns"],
+      "Draw": ["Alicia", "Rocio"],
+      "Netherlands": [
+        "Amna", "Alice Fontaine", "Gui", "Nickel", "Ello Han", "Madeleine McCartney",
+        "Mauricio", "Ariel", "Fatima Mohomud", "Amaya Rutherford", "Beka", "Ramil",
+        "Ishaq", "Alfred Birch", "Malavika Nair Santhosh Kumar", "Maria Balsini",
+        "Ash Nicol", "amber", "Cian", "Nevena Arnould", "Rory", "Eren", "Hash",
+        "Kevin Huang", "Yasmin", "Camila", "Cris", "Sophie Hills", "Max",
+        "Adam Newell", "Paola Han", "Merve", "Glynis", "Martina", "Kathryn", "becky",
+        "Lauren Anderson", "Hannah", "Harriet", "Mariana", "Rafael", "Estera",
+        "Haimini", "Ben Attwood", "Fernando Paal"
+      ]
+    }
+  },
+  {
+    id: 59,
+    label: "Game 59",
+    matchup: "Türkiye vs USA",
+    date: "Jun 25",
+    winner: "Türkiye", // Türkiye 3-2 USA (upset)
+    options: {
+      "Türkiye": [
+        "Eren", "James Johns", "Adam Newell", "Merve", "Martina", "Lauren Anderson",
+        "Hannah", "Harriet", "Estera", "Fernando Paal"
+      ],
+      "Draw": [
+        "Ello Han", "Madeleine McCartney", "Amaya Rutherford", "Alfred Birch",
+        "Malavika Nair Santhosh Kumar", "Maria Balsini", "Nevena Arnould", "Alicia",
+        "Kevin Huang", "Mariana", "Haimini"
+      ],
+      "USA": [
+        "Amna", "Alice Fontaine", "Gui", "Nickel", "Mauricio", "Ariel",
+        "Fatima Mohomud", "Beka", "Ramil", "Ishaq", "Ash Nicol", "amber", "Cian",
+        "Rory", "Hash", "Yasmin", "Camila", "Cris", "Sophie Hills", "Max",
+        "Paola Han", "Glynis", "Rocio", "Kathryn", "becky", "Rafael", "Ben Attwood"
+      ]
+    }
+  },
+  {
+    id: 60,
+    label: "Game 60",
+    matchup: "Paraguay vs Australia",
+    date: "Jun 25",
+    winner: "Draw", // Paraguay 0-0 Australia
+    options: {
+      "Paraguay": [
+        "Gui", "Madeleine McCartney", "Amaya Rutherford", "Alfred Birch", "amber",
+        "Rory", "Camila", "James Johns", "Cris", "Paola Han", "Merve", "Glynis",
+        "Kathryn", "Lauren Anderson", "Hannah", "Harriet", "Ben Attwood"
+      ],
+      "Draw": [
+        "Alice Fontaine", "Ariel", "Fatima Mohomud", "Beka",
+        "Malavika Nair Santhosh Kumar", "Maria Balsini", "Nevena Arnould",
+        "Sophie Hills", "Rocio", "Martina", "becky", "Haimini"
+      ],
+      "Australia": [
+        "Amna", "Nickel", "Ello Han", "Mauricio", "Ramil", "Ishaq", "Ash Nicol",
+        "Cian", "Eren", "Hash", "Alicia", "Kevin Huang", "Yasmin", "Max",
+        "Adam Newell", "Mariana", "Rafael", "Estera", "Fernando Paal"
+      ]
+    }
   }
 ];
