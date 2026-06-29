@@ -1273,5 +1273,249 @@ const GAMES = [
         "Adam Newell", "Mariana", "Rafael", "Estera", "Fernando Paal"
       ]
     }
+  },
+  {
+    id: 61,
+    label: "Game 61",
+    matchup: "Norway vs France",
+    date: "Jun 26",
+    winner: "France", // Norway 1-4 France
+    options: {
+      "Norway": ["Kathryn"],
+      "Draw": ["Ello Han", "Mariana"],
+      "France": [
+        "Rory", "Ramil", "Curtis Mitchell", "Lauren Anderson", "Glynis", "Kasia",
+        "Amaya Rutherford", "Ariel", "Adam Newell", "Stef", "Mauricio", "Uğur",
+        "Yasmin", "Nevena Arnould", "Ross MacPherson", "Estera", "Gui", "Hannah",
+        "Paola Han", "Sophie Hills", "Sarj", "Patricia Palasz", "Eren", "Max",
+        "Hash", "Biz", "Ishaq", "amber", "Harriet", "Alfred Birch", "Kevin Huang",
+        "becky", "Cris", "Rafael", "Fatima Mohomud", "Cian", "Ben Attwood",
+        "Malavika Nair Santhosh Kumar", "Merve"
+      ]
+    }
+  },
+  {
+    id: 62,
+    label: "Game 62",
+    matchup: "Senegal vs Iraq",
+    date: "Jun 26",
+    winner: "Senegal", // Senegal 5-0 Iraq
+    options: {
+      "Senegal": [
+        "Rory", "Ramil", "Curtis Mitchell", "Lauren Anderson", "Glynis", "Kasia",
+        "Amaya Rutherford", "Ariel", "Adam Newell", "Stef", "Mauricio", "Uğur",
+        "Yasmin", "Nevena Arnould", "Estera", "Kathryn", "Gui", "Hannah",
+        "Paola Han", "Sophie Hills", "Sarj", "Patricia Palasz", "Eren", "Max",
+        "Hash", "Mariana", "Ishaq", "amber", "Harriet", "Alfred Birch",
+        "Kevin Huang", "becky", "Cris", "Rafael", "Fatima Mohomud", "Cian",
+        "Ben Attwood", "Merve"
+      ],
+      "Draw": ["Ross MacPherson", "Ello Han", "Malavika Nair Santhosh Kumar"],
+      "Iraq": ["Biz"]
+    }
+  },
+  {
+    id: 63,
+    label: "Game 63",
+    matchup: "Cape Verde vs Saudi Arabia",
+    date: "Jun 26",
+    winner: "Draw", // Cape Verde 0-0 Saudi Arabia
+    options: {
+      "Cape Verde": [
+        "Rory", "Lauren Anderson", "Glynis", "Kasia", "Ariel", "Adam Newell",
+        "Mauricio", "Yasmin", "Ross MacPherson", "Kathryn", "Gui", "Hannah",
+        "Patricia Palasz", "Eren", "Mariana", "Ishaq", "amber", "Alfred Birch",
+        "Cris", "Rafael", "Fatima Mohomud", "Cian", "Ben Attwood", "Merve"
+      ],
+      "Draw": [
+        "Ramil", "Amaya Rutherford", "Stef", "Estera", "Ello Han", "Paola Han",
+        "Sophie Hills", "Sarj", "Max", "Hash", "Biz", "Harriet", "Kevin Huang",
+        "becky", "Malavika Nair Santhosh Kumar"
+      ],
+      "Saudi Arabia": ["Curtis Mitchell", "Uğur", "Nevena Arnould"]
+    }
+  },
+  {
+    id: 64,
+    label: "Game 64",
+    matchup: "Uruguay vs Spain",
+    date: "Jun 26",
+    winner: "Spain", // Uruguay 0-1 Spain
+    options: {
+      "Uruguay": ["Curtis Mitchell", "Mariana"],
+      "Draw": ["Ariel", "Harriet", "Alfred Birch", "becky", "Cris"],
+      "Spain": [
+        "Rory", "Ramil", "Lauren Anderson", "Glynis", "Kasia", "Amaya Rutherford",
+        "Adam Newell", "Stef", "Mauricio", "Uğur", "Yasmin", "Nevena Arnould",
+        "Ross MacPherson", "Estera", "Ello Han", "Kathryn", "Gui", "Hannah",
+        "Paola Han", "Sophie Hills", "Sarj", "Patricia Palasz", "Eren", "Max",
+        "Hash", "Biz", "Ishaq", "amber", "Kevin Huang", "Rafael", "Fatima Mohomud",
+        "Cian", "Ben Attwood", "Malavika Nair Santhosh Kumar", "Merve"
+      ]
+    }
+  },
+  {
+    id: 65,
+    label: "Game 65",
+    matchup: "Egypt vs Iran",
+    date: "Jun 26",
+    winner: "Draw", // Egypt 1-1 Iran
+    options: {
+      "Egypt": [
+        "Rory", "Curtis Mitchell", "Kasia", "Ariel", "Adam Newell", "Stef",
+        "Mauricio", "Yasmin", "Ross MacPherson", "Sarj", "Patricia Palasz", "Max",
+        "Hash", "Mariana", "Ishaq", "amber", "Harriet", "Alfred Birch", "Rafael",
+        "Fatima Mohomud", "Cian", "Ben Attwood", "Malavika Nair Santhosh Kumar",
+        "Merve"
+      ],
+      "Draw": [
+        "Lauren Anderson", "Glynis", "Amaya Rutherford", "Uğur", "Nevena Arnould",
+        "Ello Han", "Gui", "Eren", "becky", "Cris"
+      ],
+      "Iran": [
+        "Ramil", "Estera", "Kathryn", "Hannah", "Paola Han", "Sophie Hills", "Biz",
+        "Kevin Huang"
+      ]
+    }
+  },
+  {
+    id: 66,
+    label: "Game 66",
+    matchup: "New Zealand vs Belgium",
+    date: "Jun 26",
+    winner: "Belgium", // New Zealand 1-5 Belgium
+    options: {
+      "New Zealand": ["Stef", "Kathryn", "Sophie Hills"],
+      "Draw": ["Ello Han", "Ishaq"],
+      "Belgium": [
+        "Rory", "Ramil", "Curtis Mitchell", "Kasia", "Amaya Rutherford", "Ariel",
+        "Adam Newell", "Mauricio", "Uğur", "Yasmin", "Nevena Arnould",
+        "Ross MacPherson", "Gui", "Hannah", "Paola Han", "Sarj", "Eren", "Max",
+        "Hash", "Biz", "Mariana", "amber", "Harriet", "Alfred Birch", "Kevin Huang",
+        "becky", "Cris", "Rafael", "Fatima Mohomud", "Cian", "Ben Attwood", "Merve"
+      ]
+    }
+  },
+  {
+    id: 67,
+    label: "Game 67",
+    matchup: "Panama vs England",
+    date: "Jun 26",
+    winner: "England", // Panama 0-2 England
+    options: {
+      "Panama": [],
+      "Draw": ["Ross MacPherson", "Ello Han"],
+      "England": [
+        "Rory", "Ramil", "Curtis Mitchell", "Lauren Anderson", "Kasia",
+        "Amaya Rutherford", "Ariel", "Adam Newell", "Stef", "Mauricio", "Uğur",
+        "Yasmin", "Nevena Arnould", "Kathryn", "Gui", "Hannah", "Paola Han",
+        "Sophie Hills", "Sarj", "Eren", "Max", "Hash", "Biz", "Mariana", "Ishaq",
+        "amber", "Harriet", "Alfred Birch", "Kevin Huang", "becky", "Cris",
+        "Rafael", "Fatima Mohomud", "Cian", "Ben Attwood", "Merve"
+      ]
+    }
+  },
+  {
+    id: 68,
+    label: "Game 68",
+    matchup: "Croatia vs Ghana",
+    date: "Jun 26",
+    winner: "Croatia", // Croatia 2-1 Ghana
+    options: {
+      "Croatia": [
+        "Rory", "Curtis Mitchell", "Lauren Anderson", "Glynis", "Kasia", "Ariel",
+        "Adam Newell", "Nevena Arnould", "Ross MacPherson", "Estera", "Kathryn",
+        "Gui", "Hannah", "Max", "Hash", "Biz", "Mariana", "amber", "Harriet",
+        "Cris", "Rafael", "Cian", "Ben Attwood", "Malavika Nair Santhosh Kumar",
+        "Merve"
+      ],
+      "Draw": [
+        "Ramil", "Amaya Rutherford", "Stef", "Mauricio", "Uğur", "Yasmin",
+        "Paola Han", "Sophie Hills", "Sarj", "Eren", "Ishaq", "becky",
+        "Fatima Mohomud"
+      ],
+      "Ghana": ["Ello Han", "Alfred Birch", "Kevin Huang"]
+    }
+  },
+  {
+    id: 69,
+    label: "Game 69",
+    matchup: "Colombia vs Portugal",
+    date: "Jun 26",
+    winner: "Draw", // Colombia 0-0 Portugal
+    options: {
+      "Colombia": ["Rory", "Adam Newell", "Sarj", "Eren", "Mariana", "amber"],
+      "Draw": ["Glynis", "Mauricio", "Max", "Alfred Birch", "Fatima Mohomud"],
+      "Portugal": [
+        "Ramil", "Curtis Mitchell", "Lauren Anderson", "Kasia", "Amaya Rutherford",
+        "Ariel", "Stef", "Uğur", "Yasmin", "Nevena Arnould", "Ross MacPherson",
+        "Estera", "Ello Han", "Kathryn", "Gui", "Hannah", "Paola Han",
+        "Sophie Hills", "Hash", "Biz", "Ishaq", "Harriet", "Kevin Huang", "becky",
+        "Cris", "Rafael", "Cian", "Ben Attwood", "Malavika Nair Santhosh Kumar",
+        "Merve"
+      ]
+    }
+  },
+  {
+    id: 70,
+    label: "Game 70",
+    matchup: "DR Congo vs Uzbekistan",
+    date: "Jun 26",
+    winner: "DR Congo", // DR Congo 3-1 Uzbekistan
+    options: {
+      "DR Congo": [
+        "Rory", "Ramil", "Curtis Mitchell", "Lauren Anderson", "Kasia",
+        "Amaya Rutherford", "Ariel", "Adam Newell", "Uğur", "Estera", "Kathryn",
+        "Sarj", "Eren", "Hash", "Ishaq", "amber", "Kevin Huang", "Cris", "Rafael",
+        "Fatima Mohomud", "Ben Attwood", "Merve"
+      ],
+      "Draw": [
+        "Glynis", "Stef", "Mauricio", "Yasmin", "Nevena Arnould", "Ross MacPherson",
+        "Ello Han", "Gui", "Paola Han", "Sophie Hills", "Biz", "Mariana", "Harriet",
+        "becky", "Cian", "Malavika Nair Santhosh Kumar"
+      ],
+      "Uzbekistan": ["Hannah", "Max", "Alfred Birch"]
+    }
+  },
+  {
+    id: 71,
+    label: "Game 71",
+    matchup: "Algeria vs Austria",
+    date: "Jun 27",
+    winner: "Draw", // Algeria 3-3 Austria
+    options: {
+      "Algeria": [
+        "Kasia", "Adam Newell", "Nevena Arnould", "Estera", "Ello Han", "Gui",
+        "Hannah", "Paola Han", "Sarj", "Max", "Hash", "Ishaq", "amber", "Harriet",
+        "Alfred Birch", "Fatima Mohomud", "Cian"
+      ],
+      "Draw": ["Mauricio", "Yasmin", "Mariana", "becky"],
+      "Austria": [
+        "Rory", "Ramil", "Curtis Mitchell", "Lauren Anderson", "Glynis",
+        "Amaya Rutherford", "Ariel", "Stef", "Uğur", "Ross MacPherson", "Kathryn",
+        "Paulina", "Sophie Hills", "Patricia Palasz", "Eren", "Biz", "Kevin Huang",
+        "Cris", "Rafael", "Ben Attwood", "Malavika Nair Santhosh Kumar", "Merve"
+      ]
+    }
+  },
+  {
+    id: 72,
+    label: "Game 72",
+    matchup: "Jordan vs Argentina",
+    date: "Jun 27",
+    winner: "Argentina", // Jordan 1-3 Argentina
+    options: {
+      "Jordan": [],
+      "Draw": ["Yasmin", "Ello Han"],
+      "Argentina": [
+        "Rory", "Ramil", "Curtis Mitchell", "Lauren Anderson", "Glynis", "Kasia",
+        "Amaya Rutherford", "Ariel", "Adam Newell", "Stef", "Mauricio", "Uğur",
+        "Nevena Arnould", "Ross MacPherson", "Estera", "Kathryn", "Gui", "Hannah",
+        "Paulina", "Paola Han", "Sophie Hills", "Sarj", "Patricia Palasz", "Eren",
+        "Max", "Hash", "Biz", "Mariana", "Ishaq", "amber", "Harriet", "Alfred Birch",
+        "Kevin Huang", "becky", "Cris", "Rafael", "Fatima Mohomud", "Cian",
+        "Ben Attwood", "Malavika Nair Santhosh Kumar", "Merve"
+      ]
+    }
   }
 ];
