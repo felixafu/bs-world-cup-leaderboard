@@ -125,7 +125,8 @@ section h2 {
 /* ---------- Leaderboard ---------- */
 .table-wrap {
   background: var(--surface); border-radius: var(--r-card);
-  box-shadow: var(--shadow); border: 1px solid var(--line); overflow: hidden;
+  box-shadow: var(--shadow); border: 1px solid var(--line);
+  overflow-x: auto; overflow-y: hidden;   /* table scrolls inside its card; never widens the page */
 }
 table { width: 100%; border-collapse: collapse; }
 thead th {
@@ -140,7 +141,14 @@ tbody tr:hover { background: var(--green-tint); }
 .col-num { text-align: center; width: 110px; }
 .col-num.strong { font-weight: 700; }
 .col-rank { width: 56px; }
-.col-packs { width: 150px; white-space: nowrap; }
+.col-packs { width: 190px; }
+.packs-cell { display: flex; align-items: center; gap: 8px; }
+.gift-strip {
+  display: flex; flex-wrap: wrap; gap: 1px;
+  line-height: 1.1; flex: 1; min-width: 0;
+}
+.gift-more { color: var(--muted); font-weight: 700; align-self: flex-end; }
+.col-packs b { color: var(--pm-green); flex-shrink: 0; }
 
 .rank-badge {
   display: inline-flex; align-items: center; justify-content: center;
@@ -241,7 +249,7 @@ tr.collected-done td { background: linear-gradient(90deg, rgba(91,184,30,0.07), 
   /* Hide Bet (col 3) always; drop Accuracy (col 5) only when the edit column is on */
   .col-num:nth-child(3), thead th:nth-child(3) { display: none; }
   table.editing .col-num:nth-child(5), table.editing thead th:nth-child(5) { display: none; }
-  .col-packs { width: auto; font-size: 12px; }
+  .col-packs { width: 120px; font-size: 12px; }
   .col-collected { width: auto; }
   .player-name { font-size: 13px; }
   .pickups-bar { font-size: 12px; }
