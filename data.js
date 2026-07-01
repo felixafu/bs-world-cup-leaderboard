@@ -1517,5 +1517,129 @@ const GAMES = [
         "Ben Attwood", "Malavika Nair Santhosh Kumar", "Merve"
       ]
     }
+  },
+  {
+    id: 73,
+    label: "Game 73",
+    matchup: "Brazil vs Japan",
+    date: "Jun 29",
+    winner: "Brazil", // Brazil 2-1 Japan (R32)
+    options: {
+      "Brazil": [
+        "Nevena Arnould", "Issy", "Rita", "Rocio", "Kasia", "Jess", "Natalie",
+        "Lauren Anderson", "Amaya Rutherford", "Maria Balsini", "Eren", "Yasmin",
+        "Nickel", "Gavin", "Ross MacPherson", "Mauricio",
+        "Malavika Nair Santhosh Kumar", "Hash", "Hannah", "Max", "Alfred Birch",
+        "Harriet", "Sarj", "Ash Nicol", "Gui", "Madeleine McCartney",
+        "Alice Fontaine", "Fatima Mohomud", "Stef", "Nora", "Kathryn", "Ishaq",
+        "amber", "Merve", "Martina", "Sophie Hills", "Glynis", "Cris", "Ariel",
+        "Paola Han", "Rory", "Ello Han", "Camila", "Rafael", "Ben Attwood"
+      ],
+      "Japan": [
+        "Estera", "Adam Newell", "Kevin Huang", "Ramil", "Mariana", "Uğur", "becky"
+      ]
+    }
+  },
+  {
+    id: 74,
+    label: "Game 74",
+    matchup: "Germany vs Paraguay",
+    date: "Jun 29",
+    winner: "Paraguay", // Germany 1-1 Paraguay (Paraguay 4-3 pens, R32 upset)
+    options: {
+      "Germany": [
+        "Issy", "Rita", "Rocio", "Estera", "Kasia", "Jess", "Natalie",
+        "Lauren Anderson", "Adam Newell", "Maria Balsini", "Eren", "Yasmin",
+        "Nickel", "Gavin", "Ross MacPherson", "Mauricio", "Kevin Huang", "Ramil",
+        "Malavika Nair Santhosh Kumar", "Hash", "Hannah", "Max", "Alfred Birch",
+        "Harriet", "Sarj", "Ash Nicol", "Gui", "Madeleine McCartney",
+        "Alice Fontaine", "Fatima Mohomud", "Stef", "Mariana", "Nora", "Kathryn",
+        "Ishaq", "amber", "Merve", "Martina", "Sophie Hills", "Glynis", "Uğur",
+        "Cris", "Ariel", "Paola Han", "Rory", "Ello Han", "Camila", "becky",
+        "Rafael", "Ben Attwood"
+      ],
+      "Paraguay": ["Nevena Arnould", "Amaya Rutherford"]
+    }
+  },
+  {
+    id: 75,
+    label: "Game 75",
+    matchup: "Netherlands vs Morocco",
+    date: "Jun 29",
+    winner: "Morocco", // Netherlands 1-1 Morocco (Morocco 3-2 pens, R32 upset)
+    options: {
+      "Netherlands": [
+        "Nevena Arnould", "Issy", "Kasia", "Jess", "Lauren Anderson",
+        "Amaya Rutherford", "Maria Balsini", "Yasmin", "Nickel", "Ross MacPherson",
+        "Mauricio", "Ramil", "Malavika Nair Santhosh Kumar", "Hash", "Hannah", "Max",
+        "Harriet", "Sarj", "Ash Nicol", "Gui", "Madeleine McCartney",
+        "Alice Fontaine", "Stef", "Mariana", "Nora", "Kathryn", "amber", "Merve",
+        "Martina", "Sophie Hills", "Glynis", "Uğur", "Cris", "Ariel", "Paola Han",
+        "Ello Han", "Camila", "becky", "Rafael", "Ben Attwood"
+      ],
+      "Morocco": [
+        "Rita", "Rocio", "Estera", "Natalie", "Adam Newell", "Eren", "Gavin",
+        "Kevin Huang", "Alfred Birch", "Fatima Mohomud", "Ishaq", "Rory"
+      ]
+    }
+  },
+  {
+    id: 78,
+    label: "Game 78",
+    matchup: "Ivory Coast vs Norway",
+    date: "Jul 1",
+    winner: "Norway", // Ivory Coast 1-2 Norway (R32)
+    options: {
+      "Ivory Coast": [
+        "Vaiva", "Rocio", "Kevin Huang", "Hannah", "Glynis", "Rita", "Camila",
+        "Rory", "Cris", "Mariana", "Madeleine McCartney", "Adam Newell"
+      ],
+      "Norway": [
+        "Alfred Birch", "Nevena Arnould", "Yasmin", "Maria Balsini", "Max", "Beka",
+        "Mauricio", "Kasia", "Ariel", "Uğur", "Natalie", "Alice Fontaine", "Harriet",
+        "Gavin", "Estera", "Stef", "Ash Nicol", "Nora", "Gui", "Ramil", "Eren",
+        "Fatima Mohomud", "Merve", "Hash", "Kathryn", "Rafael", "Patricia Palasz",
+        "becky", "Cian", "Martina"
+      ]
+    }
+  },
+  {
+    id: 79,
+    label: "Game 79",
+    matchup: "France vs Sweden",
+    date: "Jul 1",
+    winner: "France", // France 3-0 Sweden (R32)
+    options: {
+      "France": [
+        "Alfred Birch", "Vaiva", "Nevena Arnould", "Yasmin", "Maria Balsini", "Max",
+        "Rocio", "Kevin Huang", "Beka", "Mauricio", "Hannah", "Kasia", "Ariel",
+        "Uğur", "Natalie", "Alice Fontaine", "Harriet", "Glynis", "Gavin", "Rita",
+        "Estera", "Stef", "Ash Nicol", "Nora", "Gui", "Ramil", "Eren",
+        "Fatima Mohomud", "Merve", "Camila", "Hash", "Kathryn", "Rafael", "Rory",
+        "Cris", "Mariana", "becky", "Cian", "Martina", "Madeleine McCartney"
+      ],
+      "Sweden": ["Patricia Palasz", "Adam Newell"]
+    }
+  },
+  {
+    id: 80,
+    label: "Game 80",
+    matchup: "Mexico vs Ecuador",
+    date: "Jul 1",
+    winner: "Mexico", // Mexico 2-0 Ecuador (R32)
+    options: {
+      "Mexico": [
+        "Vaiva", "Nevena Arnould", "Yasmin", "Maria Balsini", "Max", "Rocio",
+        "Kevin Huang", "Beka", "Mauricio", "Hannah", "Kasia", "Ariel", "Uğur",
+        "Alice Fontaine", "Harriet", "Glynis", "Gavin", "Rita", "Estera", "Stef",
+        "Ash Nicol", "Nora", "Gui", "Ramil", "Fatima Mohomud", "Merve", "Hash",
+        "Kathryn", "Rafael", "Patricia Palasz", "Cris", "Mariana", "becky",
+        "Madeleine McCartney"
+      ],
+      "Ecuador": [
+        "Alfred Birch", "Natalie", "Eren", "Camila", "Rory", "Cian", "Martina",
+        "Adam Newell"
+      ]
+    }
   }
 ];
